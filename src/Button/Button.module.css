@@ -1,0 +1,16 @@
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.primary{
+    background-color: aqua;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.danger {
+    background-color: red;
+}
