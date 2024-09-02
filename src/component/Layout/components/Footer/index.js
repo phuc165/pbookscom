@@ -1,13 +1,13 @@
-import styles from './Header.module.css';
+import styles from './Footer.module.css';
 import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
-function Header() {
+function Footer() {
     return (
-        <header className={cx('wrapper')}>
+        <footer className={cx('wrapper')}>
             <div className={cx('inner')}></div>
-        </header>
+        </footer>
     );
 }
 
-export default Header;
+export default Footer;
