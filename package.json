@@ -16,6 +16,7 @@
     "web-vitals": "^2.1.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
     "babel-plugin-module-resolver": "^5.0.2",
     "customize-cra": "^1.0.0",
