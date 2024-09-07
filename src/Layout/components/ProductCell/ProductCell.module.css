@@ -1,81 +1,59 @@
-.productContainer{
-    width: 20%;
-}
-.productContainer:hover{
-    background-color: #EEEEEE;
-    transition: 0.4s;
+.productContainer {
+    width: 18%;
+    height: 550px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
     border-radius: 10px;
-}
-.productContainer .product_image{
     display: flex;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    height: 300px;
-    overflow:hidden;
+    flex-direction: column;
 }
-.productContainer .product_image img{
-    width: 50%;
-    height:auto;
+.productContainer .imgHolder{
+    width: 100%;
+    height: 350px;
+    display:flex;
+
+}
+.productContainer .imgHolder img{
+    width: 80%;
     align-self: center;
     margin: auto;
 }
-
-/*/////////////////////////category content bottom////////////////////////////////*/
-.productBottom{
-    width: 100%;
+.productBottom {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.productBottom .title {
-    height: 42px;
+.title {
+    width: 95%;
+    height: 56px;
     overflow: hidden;
-    padding: 0 20px;
+    margin: auto;
 }
-.productBottom .title a{
+.price {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.newPrice {
     font-size: 18px;
-    text-decoration: none;
-    margin-left: 20px;
-    color: #333333;     
-}
-/*//////////////////////////////price/////////////////*/
-.price{
-    margin: 20px;
-}
-.price .newPrice{
-    margin: 0;
-    color: #CF0A0A;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-}
-.price .newPrice span{
-    font-size: medium;
-    background-color: #CF0A0A;
-    color: #EEEEEE;
-    padding: 4px;
-    margin-left: 5px;
-    border-radius: 5px;
-}
-.price .oldPrice{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    color: #888888;
+    font-weight: bold;    
+}   
+.oldPrice {
+    font-weight: 16px;
     text-decoration: line-through;
+    color: #666666;
 }
 .buy {
+    width: 100%;
     display: flex;
-    justify-content:space-around;
-    margin-bottom: 20px;
+    justify-content: space-around;
 }
-
-.buy .buyNow, .buy .addCart{
-    padding: 10px 20px;
-    align-self: center;
-    background-color: #CF0A0A;
-    color: white;
+.addCart, .buyNow{
+    padding: 10px 15px;
     border-radius: 10px;
-    cursor: pointer;
+    background-color: #93deff;
     border: none;
-    
-    text-decoration: none;
 }
