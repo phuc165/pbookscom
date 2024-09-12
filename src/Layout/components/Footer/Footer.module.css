@@ -1,18 +1,11 @@
 .wrapper {
     background-color: #fff;
     height: 80px;
-    width: 90%;
-    margin: auto;
-}
-
-
-.inner {
-    height: fit-content;
     width: 100%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
+
+
 
 .logo {
     width: 100%;
@@ -23,22 +16,23 @@
 .inner {
     background-color: white;
     margin: auto;
-    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     border-radius: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .inner > .left {
+    margin: auto;
     width: 30%;
     padding-right: 10px;
     border-right: 1px solid lightgray;
 }
 
 .inner > .right {
-    width: 60%;
+    margin: auto;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;

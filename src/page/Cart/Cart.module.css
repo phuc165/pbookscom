@@ -1,0 +1,111 @@
+.cartContainer {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.colMain {
+    width: 75%;
+        
+}
+.colSub {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    background-color: #FFF;
+    font-size: 22px;
+    border-radius: 10px;    
+    padding: 20px;
+}
+.rowFirst {
+    display: flex;
+    background-color: #FFF;
+    font-size: 22px;
+    justify-content: space-around;    
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.col1 {
+    width: 60%;
+    display: flex;
+    
+}
+.col1>button {
+    margin: auto 0;
+    border: none;
+    background-color: #fff;
+}
+.col2, .col3 {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    
+}
+.col3 {
+    flex-direction: column;
+}
+
+.order{
+    background-color: #FFF;
+    border-radius: 10px;
+}
+.rowProduct {
+    display: flex;    
+    padding: 10px;
+    max-height: 130px;
+    border-bottom: 0.5px solid #ced4da;
+    justify-content: space-around;
+}
+.imageHolder {
+    width: 10%;
+    display: flex;
+}
+.imageHolder>img{
+    width: 90%;
+    margin: auto;
+}
+.title {
+    max-width: 70%;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.col2 button {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.qty {
+    padding: 0 30px;  
+    font-weight: bold;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.newPrice {
+    font-size: 20px;
+    font-weight: bold;
+}
+.oldPrice {
+    color: #666666;
+    text-decoration: line-through;
+}
+.total {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pay {
+    background-color: #93deff;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+}

@@ -50,3 +50,9 @@
     border: 0.5px solid #333;
     border-radius: 10px;
 }
+.iconButton>button {
+    background-color: #93DEFF;
+    border: none;
+    
+    cursor: pointer;
+}

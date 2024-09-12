@@ -1,25 +1,42 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './ProductCell.module.css';
+import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
+import { getAuth } from 'firebase/auth';
 
 const cx = classNames.bind(styles);
-function ProductCell({ title, img, newPrice, oldPrice }) {
+
+function ProductCell({ addToCart, ...product }) {
+    const auth = getAuth();
+    const user = auth.currentUser;
+
+    const handleAddToCart = () => {
+        addToCart(product);
+        // addToFirebaseCart(product);
+    };
+    // useEffect(() => {
+    //     fetchFirebaseCart();
+    // }, []);
     return (
         <div className={cx('productContainer')}>
-            <a className={cx('imgHolder')} href="">
-                <img src={img} alt="" />
-            </a>
+            <Link className={cx('imgHolder')} to={`/product/${product.id}`}>
+                <img src={product.img} alt="" />
+            </Link>
             <div className={cx('productBottom')}>
                 <div className={cx('title')}>
-                    <a href="#"></a>
-                    {title}
+                    <Link to={`/product/${product.id}`}></Link>
+                    {product.title}
                 </div>
                 <div className={cx('price')}>
-                    <p className={cx('newPrice')}>{newPrice} VND</p>
-                    <p className={cx('oldPrice')}>{oldPrice} VND</p>
+                    <p className={cx('newPrice')}>{product.newPrice} VND</p>
+                    <p className={cx('oldPrice')}>{product.oldPrice} VND</p>
                 </div>
                 <div className={cx('buy')}>
-                    <button className={cx('addCart')}>Add to Cart</button>
+                    <button className={cx('addCart')} onClick={handleAddToCart}>
+                        Add to Cart
+                    </button>
                     <button className={cx('buyNow')}>Buy</button>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import styles from './Footer.module.css';
 import classNames from 'classnames/bind';
 
 import { LogoIcon } from '~/component/Images';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 function Footer() {
@@ -10,18 +11,16 @@ function Footer() {
             <div className={cx('inner')}>
                 <div className={cx('left')}>
                     <div className={cx('logo')}>
-                        <a href="#"></a>
-                        <LogoIcon />
+                        <Link to={'/admin'}>
+                            <LogoIcon />
+                        </Link>
                     </div>
                     <div>9999 Nguyễn Hữu Cảnh Phường 22 Bình Thạnh TP HCM</div>
                     <div>Công Ty Cổ Phần Phát Hành Sách TP HCM - PBooks</div>
+                    <div>PBooks.com nhận đặt hàng trực tuyến và giao hàng tận nơi.</div>
                     <div>
-                        PBooks.com nhận đặt hàng trực tuyến và giao hàng tận
-                        nơi.
-                    </div>
-                    <div>
-                        KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn
-                        phòng cũng như tất cả Hệ Thống PBooks trên toàn quốc.
+                        KHÔNG hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả Hệ Thống PBooks trên
+                        toàn quốc.
                     </div>
                 </div>
                 <div className={cx('right')}>
@@ -35,22 +34,16 @@ function Footer() {
                                     <a href="#">Điều khoản sử dụng</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Chính sách bảo mật thông tin cá nhân
-                                    </a>
+                                    <a href="#">Chính sách bảo mật thông tin cá nhân</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Chính sách bảo mật thanh toán
-                                    </a>
+                                    <a href="#">Chính sách bảo mật thanh toán</a>
                                 </li>
                                 <li>
                                     <a href="#">Giới thiệu PBooks</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Hệ thống trung tâm - nhà sách
-                                    </a>
+                                    <a href="#">Hệ thống trung tâm - nhà sách</a>
                                 </li>
                             </ul>
                         </div>
@@ -62,14 +55,10 @@ function Footer() {
                         <div className={cx('footer-static-content')}>
                             <ul>
                                 <li>
-                                    <a href="#">
-                                        Chính sách đổi - trả - hoàn tiền
-                                    </a>
+                                    <a href="#">Chính sách đổi - trả - hoàn tiền</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Chính sách bảo hành - bồi hoàn
-                                    </a>
+                                    <a href="#">Chính sách bảo hành - bồi hoàn</a>
                                 </li>
                                 <li>
                                     <a href="#">Chính sách vận chuyển</a>
@@ -78,9 +67,7 @@ function Footer() {
                                     <a href="#">Chính sách khách sỉ</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        Phương thức thanh toán và xuất HĐ
-                                    </a>
+                                    <a href="#">Phương thức thanh toán và xuất HĐ</a>
                                 </li>
                             </ul>
                         </div>

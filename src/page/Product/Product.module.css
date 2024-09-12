@@ -1,0 +1,87 @@
+.productContainer {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.productImage {
+    width: 30%;
+    margin: 20px;
+}
+.productInfo {
+    width: 50%;
+    margin: 50px auto;
+}
+.title {
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.publicDetail {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.price{
+    margin-top: 100px;
+    display: flex;
+}
+.newPrice {
+    margin: 0 20px 40px 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #117581;
+}
+.oldPrice {
+    color: #666666;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.label {
+    font-size: 25px;
+}
+.qtyController {
+    width: fit-content;
+    border: 0.5px solid #666666;    
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+}
+.qtyController button {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+}
+.qty {
+    padding: 0 30px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buy {
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.addCart, .buyNow {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #93deff;
+    font-weight: bold;
+    font-size: 20px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px auto;
+}

@@ -4,7 +4,28 @@ import { DefaultLayout } from '~/Layout';
 import { Fragment } from 'react';
 
 import './App.css';
-function App() {
+
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+import { getAuth } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
+
+const firebaseConfig = {
+    apiKey: 'AIzaSyAhyRw3qy5j1gtpTmGgA6txMdDqGLz8nB8',
+    authDomain: 'pbooks-1c947.firebaseapp.com',
+    projectId: 'pbooks-1c947',
+    storageBucket: 'pbooks-1c947.appspot.com',
+    messagingSenderId: '851841749483',
+    appId: '1:851841749483:web:29d21a13453693475a09ae',
+    measurementId: 'G-SC81BW1GV2',
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+function App({ db }) {
     return (
         <Router>
             <div className="App">
