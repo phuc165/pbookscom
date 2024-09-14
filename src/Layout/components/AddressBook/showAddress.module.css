@@ -1,0 +1,17 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.inner {
+    display: flex;
+    flex-direction: column;
+}
+.address {
+    display: flex;
+}
+.address>p {
+    margin-right: 5px;
+    font-size: 18px;
+}

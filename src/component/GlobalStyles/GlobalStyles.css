@@ -1,5 +1,10 @@
 body {
     margin: 0;
     background-color: #eeeeee;
+}
+* {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    margin-left: 30px;
 }

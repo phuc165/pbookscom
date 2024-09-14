@@ -1,17 +1,36 @@
 import React, { useEffect, useState } from 'react';
-import { getFirestore, collection, getDocs, setDoc, doc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
+import classNames from 'classnames/bind';
 
+import styles from './account.module.css';
 import AddAddress from '~/Layout/components/AddressBook/AddressBook';
 import ShowAddressBook from '~/Layout/components/AddressBook/ShowAddressBook';
+import AllBills from './AllBills';
+
+const cx = classNames.bind(styles);
 
 const AccountPage = () => {
+    const GetUserUid = () => {
+        const auth = getAuth();
+        const [uid, setUid] = useState(null);
+        useEffect(() => {
+            auth.onAuthStateChanged((user) => {
+                if (user) {
+                    setUid(user.uid);
+                }
+            });
+        }, []);
+        return uid;
+    };
+    const uid = GetUserUid();
     return (
-        <div>
-            <h2>Account Page</h2>
-            <h3>Sổ địa chỉ: </h3>
-            <AddAddress />
-            <ShowAddressBook />
+        <div className={cx('container')}>
+            <h1>Tài khoản</h1>
+            <div className={cx('inner')}>
+                <AddAddress />
+                <ShowAddressBook />
+                <AllBills userId={uid} />
+            </div>
         </div>
     );
 };

@@ -105,7 +105,7 @@ function Cart() {
     }
     return (
         <>
-            <h1 style={{ marginLeft: '30px' }}>Giỏ hàng</h1>
+            <h1>Giỏ hàng</h1>
             <div className={cx('cartContainer')}>
                 <div className={cx('colMain')}>
                     <div className={cx('rowFirst')}>

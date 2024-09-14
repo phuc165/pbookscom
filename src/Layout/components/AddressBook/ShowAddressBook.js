@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { getFirestore, collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import classNames from 'classnames/bind';
+import styles from './showAddress.module.css';
+
+const cx = classNames.bind(styles);
 
 const ShowAddressBook = () => {
     const db = getFirestore();
@@ -47,20 +51,20 @@ const ShowAddressBook = () => {
     }, [db, userID]);
 
     return (
-        <div>
-            <h2>Address Book</h2>
-            <ul>
+        <div className={cx('container')}>
+            <h2>Sổ địa chỉ: </h2>
+            <div className={cx('inner')}>
                 {addresses.map((address, index) => (
-                    <li key={index}>
-                        <p>Recipient Name: {address.recipientName}</p>
-                        <p>Phone Number: {address.phoneNumber}</p>
-                        <p>Address: {address.address}</p>
-                        <p>Province: {address.provinceName}</p>
-                        <p>District: {address.districtName}</p>
-                        <p>Ward: {address.wardName}</p>
-                    </li>
+                    <div key={index} className={cx('address')}>
+                        <p>Tên người nhận: {address.recipientName},</p>
+                        <p>Số điện thoại: {address.phoneNumber},</p>
+                        <p>{address.address},</p>
+                        <p>{address.provinceName},</p>
+                        <p>{address.districtName},</p>
+                        <p>{address.wardName}</p>
+                    </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };

@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { getFirestore, collection, getDocs, query, where, doc, addDoc, setDoc } from 'firebase/firestore';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+import classNames from 'classnames/bind';
+import styles from './address.module.css';
+
+const cx = classNames.bind(styles);
 
 const AddAddress = () => {
     const db = getFirestore();
@@ -20,7 +24,6 @@ const AddAddress = () => {
         province: '',
         ward: '',
     });
-
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -106,9 +109,12 @@ const AddAddress = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={cx('container')}>
+            <h2>Thêm địa chỉ: </h2>
+            <input type="text" name="recipientName" placeholder="Tên người nhận" onChange={handleChange} />
+            <input type="number" name="phoneNumber" placeholder="Nhập số điện thoại" onChange={handleChange} />
             <select onChange={handleProvinceChange}>
-                <option value="">Select Province</option>
+                <option value="">Chọn Tỉnh/Thành phố</option>
                 {provinces.map((province) => (
                     <option key={province.id} value={province.id}>
                         {province.pName}
@@ -117,7 +123,7 @@ const AddAddress = () => {
             </select>
 
             <select onChange={handleDistrictChange} disabled={!selectedProvince}>
-                <option value="">Select District</option>
+                <option value="">Chọn Quận/Huyện</option>
                 {districts.map((district) => (
                     <option key={district.id} value={district.id}>
                         {district.dName}
@@ -126,19 +132,15 @@ const AddAddress = () => {
             </select>
 
             <select onChange={handleWardChange} disabled={!selectedDistrict}>
-                <option value="">Select Ward</option>
+                <option value="">Chọn Xã/Phường</option>
                 {wards.map((ward) => (
                     <option key={ward.id} value={ward.id}>
                         {ward.wName}
                     </option>
                 ))}
             </select>
-
-            <input type="text" name="address" placeholder="Address" onChange={handleChange} />
-            <input type="text" name="phoneNumber" placeholder="Phone Number" onChange={handleChange} />
-            <input type="text" name="recipientName" placeholder="Recipient Name" onChange={handleChange} />
-
-            <button type="submit">Save</button>
+            <input type="text" name="address" placeholder="Nhập địa chỉ..." onChange={handleChange} />
+            <button type="submit">Lưu</button>
         </form>
     );
 };

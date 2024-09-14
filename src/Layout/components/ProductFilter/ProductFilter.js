@@ -43,12 +43,6 @@ function ProductFilter() {
             console.error('User is not logged in. Cannot add product to cart.');
             return;
         }
-
-        if (!products.newPrice) {
-            console.error('Product price is not defined. Cannot add product to cart.');
-            return;
-        }
-
         try {
             const db = getFirestore();
             const cartCollectionName = `Cart_${uid}`;

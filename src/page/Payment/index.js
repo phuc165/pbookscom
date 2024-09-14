@@ -72,7 +72,7 @@ const Payment = () => {
     const total = cartItems.reduce((total, item) => total + item.totalProductPrice, 0);
     return (
         <div className={cx('container')}>
-            <h1 style={{ marginLeft: '30px' }}>Thanh toán</h1>
+            <h1>Thanh toán</h1>
             <div className={cx('deliveryInfo')}>
                 <h2>Địa chỉ giao hàng:</h2>
                 <button onClick={handleOpenModal}>Chọn địa chỉ giao hàng</button>

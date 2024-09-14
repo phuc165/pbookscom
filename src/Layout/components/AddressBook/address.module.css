@@ -1,0 +1,18 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.container>select, .container>input {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.container>button {
+    padding: 10px 20px;
+    background-color: #93deff;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
