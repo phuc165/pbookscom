@@ -1,8 +1,7 @@
-import ImportData from '~/Layout/components/AddData/AddData';
-import ChangeData from '~/Layout/components/ChangeData/ChangeData';
+import AddWardsComponent from '~/function/Addward/AddWard';
 
 function Admin() {
-    return <ChangeData />;
+    return;
 }
 
 export default Admin;

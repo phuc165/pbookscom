@@ -1,0 +1,152 @@
+.container {
+    margin-bottom: 300px;
+}
+.deliveryInfo {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    border-bottom: 0.5px solid #888888;
+}
+.deliveryInfo>button {
+    height: 100%;
+    width: fit-content;
+    padding: 10px;
+    background-color: #93deff;
+    border: none;
+    border-radius: 10px;
+}
+.address {
+    display: flex;
+    font-size: 20px;
+}
+.address>p {
+    margin-right: 5px;
+}
+.deliveryMethod, .productList {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.deliveryMethod>label {
+    margin-right: 20px;
+    
+    font-size: 20px;
+}
+.product {
+    display: flex;
+    font-size: 20px;
+    height: 200px;
+    border-bottom: 0.5px solid #ced4da;
+}
+.col1 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col1>img {
+    width: 70%;
+    height: fit-content;
+}
+.col2 {
+    width: 40%;
+    text-align: left;
+}
+.col3{
+    width: 20%;
+}
+.col4 {
+    width: 10%;
+}
+.col5 {
+    width: 20%;
+}
+.col1, .col3, .col4, .col5 {
+    text-align: center;
+}
+.col1, .col2, .col3, .col4, .col5 {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.bottomBar .innerBar {
+    width: 90%;
+    margin: auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.bottomBar .innerBar>button {
+    height: fit-content;
+    padding: 20px 60px;
+    background-color: #93deff;
+    border: none;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 0;
+}
+.bottomBar .innerBar>div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.priceContainer {
+    display: flex;
+}
+.col6, .col7 {
+    display: flex;
+    flex-direction: column;
+}
+.col6 {
+    margin-right: 40px;
+}
+.col7 {
+    text-align: right;
+}
+.addressList {
+    display: flex;
+}
+.addressList>input {
+    margin-right: 10px;
+}
+.addressList>p {
+    margin-right: 5px;
+}
+
+
+
+
+
+

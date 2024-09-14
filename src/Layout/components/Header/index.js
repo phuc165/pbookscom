@@ -3,14 +3,40 @@ import classNames from 'classnames/bind';
 import { Link, useNavigate } from 'react-router-dom';
 import { CartIcon, UserIcon, LogoutIcon } from '~/component/Icons';
 import { LogoIcon } from '~/component/Images';
-
-import { getAuth, signOut } from 'firebase/auth';
+import { useState, useEffect } from 'react';
+import { getAuth, signOut, onAuthStateChanged } from 'firebase/auth';
 
 const cx = classNames.bind(styles);
 
 const Header = () => {
     const auth = getAuth();
     const navigate = useNavigate();
+    const GetUserUid = () => {
+        const auth = getAuth();
+        const [uid, setUid] = useState(null);
+        useEffect(() => {
+            auth.onAuthStateChanged((user) => {
+                if (user) {
+                    setUid(user.uid);
+                }
+            });
+        }, []);
+        return uid;
+    };
+    const uid = GetUserUid();
+    const handleLogin = () => {
+        const auth = getAuth();
+
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                // User is signed in, navigate to account page
+                navigate('/account');
+            } else {
+                // No user is signed in, navigate to sign-in page
+                navigate('/signinup');
+            }
+        });
+    };
     const handleLogout = () => {
         signOut(auth)
             .then(() => {
@@ -40,7 +66,7 @@ const Header = () => {
                             <CartIcon />
                         </button>
                     </Link>
-                    <Link className={cx('iconButton')} to={'/signinup'}>
+                    <Link className={cx('iconButton')} onClick={handleLogin}>
                         <button>
                             <UserIcon />
                         </button>

@@ -4,6 +4,7 @@ import styles from './ProductCell.module.css';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
+import BuyNow from '~/component/BuyNow/BuyNow';
 import { getAuth } from 'firebase/auth';
 
 const cx = classNames.bind(styles);
@@ -14,11 +15,7 @@ function ProductCell({ addToCart, ...product }) {
 
     const handleAddToCart = () => {
         addToCart(product);
-        // addToFirebaseCart(product);
     };
-    // useEffect(() => {
-    //     fetchFirebaseCart();
-    // }, []);
     return (
         <div className={cx('productContainer')}>
             <Link className={cx('imgHolder')} to={`/product/${product.id}`}>

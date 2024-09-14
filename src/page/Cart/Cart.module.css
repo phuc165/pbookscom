@@ -53,6 +53,8 @@
 .order{
     background-color: #FFF;
     border-radius: 10px;
+    align-items: center;
+    
 }
 .rowProduct {
     display: flex;    
@@ -108,4 +110,12 @@
     color: #000;
     font-weight: bold;
     border-radius: 10px;
+}
+.order2 {
+    align-items: center;
+    justify-content: center;    
+    display: flex;
+    background-color: #FFF;
+    border-radius: 10px;
+    align-items: center;
 }

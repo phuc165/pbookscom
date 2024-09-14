@@ -1,0 +1,3502 @@
+[
+    {
+        "dID": "1",
+        "dName": "Ba Đình",
+        "pID": "1"
+    },
+    {
+        "dID": "2",
+        "dName": "Hoàn Kiếm",
+        "pID": "1"
+    },
+    {
+        "dID": "3",
+        "dName": "Tây Hồ",
+        "pID": "1"
+    },
+    {
+        "dID": "4",
+        "dName": "Long Biên",
+        "pID": "1"
+    },
+    {
+        "dID": "5",
+        "dName": "Cầu Giấy",
+        "pID": "1"
+    },
+    {
+        "dID": "6",
+        "dName": "Đống Đa",
+        "pID": "1"
+    },
+    {
+        "dID": "7",
+        "dName": "Hai Bà Trưng",
+        "pID": "1"
+    },
+    {
+        "dID": "8",
+        "dName": "Hoàng Mai",
+        "pID": "1"
+    },
+    {
+        "dID": "9",
+        "dName": "Thanh Xuân",
+        "pID": "1"
+    },
+    {
+        "dID": "16",
+        "dName": "Sóc Sơn",
+        "pID": "1"
+    },
+    {
+        "dID": "17",
+        "dName": "Đông Anh",
+        "pID": "1"
+    },
+    {
+        "dID": "18",
+        "dName": "Gia Lâm",
+        "pID": "1"
+    },
+    {
+        "dID": "19",
+        "dName": "Nam Từ Liêm",
+        "pID": "1"
+    },
+    {
+        "dID": "20",
+        "dName": "Thanh Trì",
+        "pID": "1"
+    },
+    {
+        "dID": "21",
+        "dName": "Bắc Từ Liêm",
+        "pID": "1"
+    },
+    {
+        "dID": "24",
+        "dName": "Hà Giang",
+        "pID": "2"
+    },
+    {
+        "dID": "26",
+        "dName": "Đồng Văn",
+        "pID": "2"
+    },
+    {
+        "dID": "27",
+        "dName": "Mèo Vạc",
+        "pID": "2"
+    },
+    {
+        "dID": "28",
+        "dName": "Yên Minh",
+        "pID": "2"
+    },
+    {
+        "dID": "29",
+        "dName": "Quản Bạ",
+        "pID": "2"
+    },
+    {
+        "dID": "30",
+        "dName": "Vị Xuyên",
+        "pID": "2"
+    },
+    {
+        "dID": "31",
+        "dName": "Bắc Mê",
+        "pID": "2"
+    },
+    {
+        "dID": "32",
+        "dName": "Hoàng Su Phì",
+        "pID": "2"
+    },
+    {
+        "dID": "33",
+        "dName": "Xín Mần",
+        "pID": "2"
+    },
+    {
+        "dID": "34",
+        "dName": "Bắc Quang",
+        "pID": "2"
+    },
+    {
+        "dID": "35",
+        "dName": "Quang Bình",
+        "pID": "2"
+    },
+    {
+        "dID": "40",
+        "dName": "Cao Bằng",
+        "pID": "4"
+    },
+    {
+        "dID": "42",
+        "dName": "Bảo Lâm",
+        "pID": "4"
+    },
+    {
+        "dID": "43",
+        "dName": "Bảo Lạc",
+        "pID": "4"
+    },
+    {
+        "dID": "45",
+        "dName": "Hà Quảng",
+        "pID": "4"
+    },
+    {
+        "dID": "47",
+        "dName": "Trùng Khánh",
+        "pID": "4"
+    },
+    {
+        "dID": "48",
+        "dName": "Hạ Lang",
+        "pID": "4"
+    },
+    {
+        "dID": "49",
+        "dName": "Quảng Hòa",
+        "pID": "4"
+    },
+    {
+        "dID": "51",
+        "dName": "Hoà An",
+        "pID": "4"
+    },
+    {
+        "dID": "52",
+        "dName": "Nguyên Bình",
+        "pID": "4"
+    },
+    {
+        "dID": "53",
+        "dName": "Thạch An",
+        "pID": "4"
+    },
+    {
+        "dID": "58",
+        "dName": "Bắc Kạn",
+        "pID": "6"
+    },
+    {
+        "dID": "60",
+        "dName": "Pác Nặm",
+        "pID": "6"
+    },
+    {
+        "dID": "61",
+        "dName": "Ba Bể",
+        "pID": "6"
+    },
+    {
+        "dID": "62",
+        "dName": "Ngân Sơn",
+        "pID": "6"
+    },
+    {
+        "dID": "63",
+        "dName": "Bạch Thông",
+        "pID": "6"
+    },
+    {
+        "dID": "64",
+        "dName": "Chợ Đồn",
+        "pID": "6"
+    },
+    {
+        "dID": "65",
+        "dName": "Chợ Mới",
+        "pID": "6"
+    },
+    {
+        "dID": "66",
+        "dName": "Na Rì",
+        "pID": "6"
+    },
+    {
+        "dID": "70",
+        "dName": "Tuyên Quang",
+        "pID": "8"
+    },
+    {
+        "dID": "71",
+        "dName": "Lâm Bình",
+        "pID": "8"
+    },
+    {
+        "dID": "72",
+        "dName": "Na Hang",
+        "pID": "8"
+    },
+    {
+        "dID": "73",
+        "dName": "Chiêm Hóa",
+        "pID": "8"
+    },
+    {
+        "dID": "74",
+        "dName": "Hàm Yên",
+        "pID": "8"
+    },
+    {
+        "dID": "75",
+        "dName": "Yên Sơn",
+        "pID": "8"
+    },
+    {
+        "dID": "76",
+        "dName": "Sơn Dương",
+        "pID": "8"
+    },
+    {
+        "dID": "80",
+        "dName": "Lào Cai",
+        "pID": "10"
+    },
+    {
+        "dID": "82",
+        "dName": "Bát Xát",
+        "pID": "10"
+    },
+    {
+        "dID": "83",
+        "dName": "Mường Khương",
+        "pID": "10"
+    },
+    {
+        "dID": "84",
+        "dName": "Si Ma Cai",
+        "pID": "10"
+    },
+    {
+        "dID": "85",
+        "dName": "Bắc Hà",
+        "pID": "10"
+    },
+    {
+        "dID": "86",
+        "dName": "Bảo Thắng",
+        "pID": "10"
+    },
+    {
+        "dID": "87",
+        "dName": "Bảo Yên",
+        "pID": "10"
+    },
+    {
+        "dID": "88",
+        "dName": "Sa Pa",
+        "pID": "10"
+    },
+    {
+        "dID": "89",
+        "dName": "Văn Bàn",
+        "pID": "10"
+    },
+    {
+        "dID": "94",
+        "dName": "Điện Biên Phủ",
+        "pID": "11"
+    },
+    {
+        "dID": "95",
+        "dName": "Mường Lay",
+        "pID": "11"
+    },
+    {
+        "dID": "96",
+        "dName": "Mường Nhé",
+        "pID": "11"
+    },
+    {
+        "dID": "97",
+        "dName": "Mường Chà",
+        "pID": "11"
+    },
+    {
+        "dID": "98",
+        "dName": "Tủa Chùa",
+        "pID": "11"
+    },
+    {
+        "dID": "99",
+        "dName": "Tuần Giáo",
+        "pID": "11"
+    },
+    {
+        "dID": "100",
+        "dName": "Điện Biên",
+        "pID": "11"
+    },
+    {
+        "dID": "101",
+        "dName": "Điện Biên Đông",
+        "pID": "11"
+    },
+    {
+        "dID": "102",
+        "dName": "Mường Ảng",
+        "pID": "11"
+    },
+    {
+        "dID": "103",
+        "dName": "Nậm Pồ",
+        "pID": "11"
+    },
+    {
+        "dID": "105",
+        "dName": "Lai Châu",
+        "pID": "12"
+    },
+    {
+        "dID": "106",
+        "dName": "Tam Đường",
+        "pID": "12"
+    },
+    {
+        "dID": "107",
+        "dName": "Mường Tè",
+        "pID": "12"
+    },
+    {
+        "dID": "108",
+        "dName": "Sìn Hồ",
+        "pID": "12"
+    },
+    {
+        "dID": "109",
+        "dName": "Phong Thổ",
+        "pID": "12"
+    },
+    {
+        "dID": "110",
+        "dName": "Than Uyên",
+        "pID": "12"
+    },
+    {
+        "dID": "111",
+        "dName": "Tân Uyên",
+        "pID": "12"
+    },
+    {
+        "dID": "112",
+        "dName": "Nậm Nhùn",
+        "pID": "12"
+    },
+    {
+        "dID": "116",
+        "dName": "Sơn La",
+        "pID": "14"
+    },
+    {
+        "dID": "118",
+        "dName": "Quỳnh Nhai",
+        "pID": "14"
+    },
+    {
+        "dID": "119",
+        "dName": "Thuận Châu",
+        "pID": "14"
+    },
+    {
+        "dID": "120",
+        "dName": "Mường La",
+        "pID": "14"
+    },
+    {
+        "dID": "121",
+        "dName": "Bắc Yên",
+        "pID": "14"
+    },
+    {
+        "dID": "122",
+        "dName": "Phù Yên",
+        "pID": "14"
+    },
+    {
+        "dID": "123",
+        "dName": "Mộc Châu",
+        "pID": "14"
+    },
+    {
+        "dID": "124",
+        "dName": "Yên Châu",
+        "pID": "14"
+    },
+    {
+        "dID": "125",
+        "dName": "Mai Sơn",
+        "pID": "14"
+    },
+    {
+        "dID": "126",
+        "dName": "Sông Mã",
+        "pID": "14"
+    },
+    {
+        "dID": "127",
+        "dName": "Sốp Cộp",
+        "pID": "14"
+    },
+    {
+        "dID": "128",
+        "dName": "Vân Hồ",
+        "pID": "14"
+    },
+    {
+        "dID": "132",
+        "dName": "Yên Bái",
+        "pID": "15"
+    },
+    {
+        "dID": "133",
+        "dName": "Nghĩa Lộ",
+        "pID": "15"
+    },
+    {
+        "dID": "135",
+        "dName": "Lục Yên",
+        "pID": "15"
+    },
+    {
+        "dID": "136",
+        "dName": "Văn Yên",
+        "pID": "15"
+    },
+    {
+        "dID": "137",
+        "dName": "Mù Căng Chải",
+        "pID": "15"
+    },
+    {
+        "dID": "138",
+        "dName": "Trấn Yên",
+        "pID": "15"
+    },
+    {
+        "dID": "139",
+        "dName": "Trạm Tấu",
+        "pID": "15"
+    },
+    {
+        "dID": "140",
+        "dName": "Văn Chấn",
+        "pID": "15"
+    },
+    {
+        "dID": "141",
+        "dName": "Yên Bình",
+        "pID": "15"
+    },
+    {
+        "dID": "148",
+        "dName": "Hòa Bình",
+        "pID": "17"
+    },
+    {
+        "dID": "150",
+        "dName": "Đà Bắc",
+        "pID": "17"
+    },
+    {
+        "dID": "152",
+        "dName": "Lương Sơn",
+        "pID": "17"
+    },
+    {
+        "dID": "153",
+        "dName": "Kim Bôi",
+        "pID": "17"
+    },
+    {
+        "dID": "154",
+        "dName": "Cao Phong",
+        "pID": "17"
+    },
+    {
+        "dID": "155",
+        "dName": "Tân Lạc",
+        "pID": "17"
+    },
+    {
+        "dID": "156",
+        "dName": "Mai Châu",
+        "pID": "17"
+    },
+    {
+        "dID": "157",
+        "dName": "Lạc Sơn",
+        "pID": "17"
+    },
+    {
+        "dID": "158",
+        "dName": "Yên Thủy",
+        "pID": "17"
+    },
+    {
+        "dID": "159",
+        "dName": "Lạc Thủy",
+        "pID": "17"
+    },
+    {
+        "dID": "164",
+        "dName": "Thái Nguyên",
+        "pID": "19"
+    },
+    {
+        "dID": "165",
+        "dName": "Sông Công",
+        "pID": "19"
+    },
+    {
+        "dID": "167",
+        "dName": "Định Hóa",
+        "pID": "19"
+    },
+    {
+        "dID": "168",
+        "dName": "Phú Lương",
+        "pID": "19"
+    },
+    {
+        "dID": "169",
+        "dName": "Đồng Hỷ",
+        "pID": "19"
+    },
+    {
+        "dID": "170",
+        "dName": "Võ Nhai",
+        "pID": "19"
+    },
+    {
+        "dID": "171",
+        "dName": "Đại Từ",
+        "pID": "19"
+    },
+    {
+        "dID": "172",
+        "dName": "Phổ Yên",
+        "pID": "19"
+    },
+    {
+        "dID": "173",
+        "dName": "Phú Bình",
+        "pID": "19"
+    },
+    {
+        "dID": "178",
+        "dName": "Lạng Sơn",
+        "pID": "20"
+    },
+    {
+        "dID": "180",
+        "dName": "Tràng Định",
+        "pID": "20"
+    },
+    {
+        "dID": "181",
+        "dName": "Bình Gia",
+        "pID": "20"
+    },
+    {
+        "dID": "182",
+        "dName": "Văn Lãng",
+        "pID": "20"
+    },
+    {
+        "dID": "183",
+        "dName": "Cao Lộc",
+        "pID": "20"
+    },
+    {
+        "dID": "184",
+        "dName": "Văn Quan",
+        "pID": "20"
+    },
+    {
+        "dID": "185",
+        "dName": "Bắc Sơn",
+        "pID": "20"
+    },
+    {
+        "dID": "186",
+        "dName": "Hữu Lũng",
+        "pID": "20"
+    },
+    {
+        "dID": "187",
+        "dName": "Chi Lăng",
+        "pID": "20"
+    },
+    {
+        "dID": "188",
+        "dName": "Lộc Bình",
+        "pID": "20"
+    },
+    {
+        "dID": "189",
+        "dName": "Đình Lập",
+        "pID": "20"
+    },
+    {
+        "dID": "193",
+        "dName": "Hạ Long",
+        "pID": "22"
+    },
+    {
+        "dID": "194",
+        "dName": "Móng Cái",
+        "pID": "22"
+    },
+    {
+        "dID": "195",
+        "dName": "Cẩm Phả",
+        "pID": "22"
+    },
+    {
+        "dID": "196",
+        "dName": "Uông Bí",
+        "pID": "22"
+    },
+    {
+        "dID": "198",
+        "dName": "Bình Liêu",
+        "pID": "22"
+    },
+    {
+        "dID": "199",
+        "dName": "Tiên Yên",
+        "pID": "22"
+    },
+    {
+        "dID": "200",
+        "dName": "Đầm Hà",
+        "pID": "22"
+    },
+    {
+        "dID": "201",
+        "dName": "Hải Hà",
+        "pID": "22"
+    },
+    {
+        "dID": "202",
+        "dName": "Ba Chẽ",
+        "pID": "22"
+    },
+    {
+        "dID": "203",
+        "dName": "Vân Đồn",
+        "pID": "22"
+    },
+    {
+        "dID": "205",
+        "dName": "Đông Triều",
+        "pID": "22"
+    },
+    {
+        "dID": "206",
+        "dName": "Quảng Yên",
+        "pID": "22"
+    },
+    {
+        "dID": "207",
+        "dName": "Cô Tô",
+        "pID": "22"
+    },
+    {
+        "dID": "213",
+        "dName": "Bắc Giang",
+        "pID": "24"
+    },
+    {
+        "dID": "215",
+        "dName": "Yên Thế",
+        "pID": "24"
+    },
+    {
+        "dID": "216",
+        "dName": "Tân Yên",
+        "pID": "24"
+    },
+    {
+        "dID": "217",
+        "dName": "Lạng Giang",
+        "pID": "24"
+    },
+    {
+        "dID": "218",
+        "dName": "Lục Nam",
+        "pID": "24"
+    },
+    {
+        "dID": "219",
+        "dName": "Lục Ngạn",
+        "pID": "24"
+    },
+    {
+        "dID": "220",
+        "dName": "Sơn Động",
+        "pID": "24"
+    },
+    {
+        "dID": "221",
+        "dName": "Yên Dũng",
+        "pID": "24"
+    },
+    {
+        "dID": "222",
+        "dName": "Việt Yên",
+        "pID": "24"
+    },
+    {
+        "dID": "223",
+        "dName": "Hiệp Hòa",
+        "pID": "24"
+    },
+    {
+        "dID": "227",
+        "dName": "Việt Trì",
+        "pID": "25"
+    },
+    {
+        "dID": "228",
+        "dName": "Phú Thọ",
+        "pID": "25"
+    },
+    {
+        "dID": "230",
+        "dName": "Đoan Hùng",
+        "pID": "25"
+    },
+    {
+        "dID": "231",
+        "dName": "Hạ Hoà",
+        "pID": "25"
+    },
+    {
+        "dID": "232",
+        "dName": "Thanh Ba",
+        "pID": "25"
+    },
+    {
+        "dID": "233",
+        "dName": "Phù Ninh",
+        "pID": "25"
+    },
+    {
+        "dID": "234",
+        "dName": "Yên Lập",
+        "pID": "25"
+    },
+    {
+        "dID": "235",
+        "dName": "Cẩm Khê",
+        "pID": "25"
+    },
+    {
+        "dID": "236",
+        "dName": "Tam Nông",
+        "pID": "25"
+    },
+    {
+        "dID": "237",
+        "dName": "Lâm Thao",
+        "pID": "25"
+    },
+    {
+        "dID": "238",
+        "dName": "Thanh Sơn",
+        "pID": "25"
+    },
+    {
+        "dID": "239",
+        "dName": "Thanh Thuỷ",
+        "pID": "25"
+    },
+    {
+        "dID": "240",
+        "dName": "Tân Sơn",
+        "pID": "25"
+    },
+    {
+        "dID": "243",
+        "dName": "Vĩnh Yên",
+        "pID": "26"
+    },
+    {
+        "dID": "244",
+        "dName": "Phúc Yên",
+        "pID": "26"
+    },
+    {
+        "dID": "246",
+        "dName": "Lập Thạch",
+        "pID": "26"
+    },
+    {
+        "dID": "247",
+        "dName": "Tam Dương",
+        "pID": "26"
+    },
+    {
+        "dID": "248",
+        "dName": "Tam Đảo",
+        "pID": "26"
+    },
+    {
+        "dID": "249",
+        "dName": "Bình Xuyên",
+        "pID": "26"
+    },
+    {
+        "dID": "250",
+        "dName": "Mê Linh",
+        "pID": "1"
+    },
+    {
+        "dID": "251",
+        "dName": "Yên Lạc",
+        "pID": "26"
+    },
+    {
+        "dID": "252",
+        "dName": "Vĩnh Tường",
+        "pID": "26"
+    },
+    {
+        "dID": "253",
+        "dName": "Sông Lô",
+        "pID": "26"
+    },
+    {
+        "dID": "256",
+        "dName": "Bắc Ninh",
+        "pID": "27"
+    },
+    {
+        "dID": "258",
+        "dName": "Yên Phong",
+        "pID": "27"
+    },
+    {
+        "dID": "259",
+        "dName": "Quế Võ",
+        "pID": "27"
+    },
+    {
+        "dID": "260",
+        "dName": "Tiên Du",
+        "pID": "27"
+    },
+    {
+        "dID": "261",
+        "dName": "Từ Sơn",
+        "pID": "27"
+    },
+    {
+        "dID": "262",
+        "dName": "Thuận Thành",
+        "pID": "27"
+    },
+    {
+        "dID": "263",
+        "dName": "Gia Bình",
+        "pID": "27"
+    },
+    {
+        "dID": "264",
+        "dName": "Lương Tài",
+        "pID": "27"
+    },
+    {
+        "dID": "268",
+        "dName": "Hà Đông",
+        "pID": "1"
+    },
+    {
+        "dID": "269",
+        "dName": "Sơn Tây",
+        "pID": "1"
+    },
+    {
+        "dID": "271",
+        "dName": "Ba Vì",
+        "pID": "1"
+    },
+    {
+        "dID": "272",
+        "dName": "Phúc Thọ",
+        "pID": "1"
+    },
+    {
+        "dID": "273",
+        "dName": "Đan Phượng",
+        "pID": "1"
+    },
+    {
+        "dID": "274",
+        "dName": "Hoài Đức",
+        "pID": "1"
+    },
+    {
+        "dID": "275",
+        "dName": "Quốc Oai",
+        "pID": "1"
+    },
+    {
+        "dID": "276",
+        "dName": "Thạch Thất",
+        "pID": "1"
+    },
+    {
+        "dID": "277",
+        "dName": "Chương Mỹ",
+        "pID": "1"
+    },
+    {
+        "dID": "278",
+        "dName": "Thanh Oai",
+        "pID": "1"
+    },
+    {
+        "dID": "279",
+        "dName": "Thường Tín",
+        "pID": "1"
+    },
+    {
+        "dID": "280",
+        "dName": "Phú Xuyên",
+        "pID": "1"
+    },
+    {
+        "dID": "281",
+        "dName": "Ứng Hòa",
+        "pID": "1"
+    },
+    {
+        "dID": "282",
+        "dName": "Mỹ Đức",
+        "pID": "1"
+    },
+    {
+        "dID": "288",
+        "dName": "Hải Dương",
+        "pID": "30"
+    },
+    {
+        "dID": "290",
+        "dName": "Chí Linh",
+        "pID": "30"
+    },
+    {
+        "dID": "291",
+        "dName": "Nam Sách",
+        "pID": "30"
+    },
+    {
+        "dID": "292",
+        "dName": "Kinh Môn",
+        "pID": "30"
+    },
+    {
+        "dID": "293",
+        "dName": "Kim Thành",
+        "pID": "30"
+    },
+    {
+        "dID": "294",
+        "dName": "Thanh Hà",
+        "pID": "30"
+    },
+    {
+        "dID": "295",
+        "dName": "Cẩm Giàng",
+        "pID": "30"
+    },
+    {
+        "dID": "296",
+        "dName": "Bình Giang",
+        "pID": "30"
+    },
+    {
+        "dID": "297",
+        "dName": "Gia Lộc",
+        "pID": "30"
+    },
+    {
+        "dID": "298",
+        "dName": "Tứ Kỳ",
+        "pID": "30"
+    },
+    {
+        "dID": "299",
+        "dName": "Ninh Giang",
+        "pID": "30"
+    },
+    {
+        "dID": "300",
+        "dName": "Thanh Miện",
+        "pID": "30"
+    },
+    {
+        "dID": "303",
+        "dName": "Hồng Bàng",
+        "pID": "31"
+    },
+    {
+        "dID": "304",
+        "dName": "Ngô Quyền",
+        "pID": "31"
+    },
+    {
+        "dID": "305",
+        "dName": "Lê Chân",
+        "pID": "31"
+    },
+    {
+        "dID": "306",
+        "dName": "Hải An",
+        "pID": "31"
+    },
+    {
+        "dID": "307",
+        "dName": "Kiến An",
+        "pID": "31"
+    },
+    {
+        "dID": "308",
+        "dName": "Đồ Sơn",
+        "pID": "31"
+    },
+    {
+        "dID": "309",
+        "dName": "Dương Kinh",
+        "pID": "31"
+    },
+    {
+        "dID": "311",
+        "dName": "Thuỷ Nguyên",
+        "pID": "31"
+    },
+    {
+        "dID": "312",
+        "dName": "An Dương",
+        "pID": "31"
+    },
+    {
+        "dID": "313",
+        "dName": "An Lão",
+        "pID": "31"
+    },
+    {
+        "dID": "314",
+        "dName": "Kiến Thuỵ",
+        "pID": "31"
+    },
+    {
+        "dID": "315",
+        "dName": "Tiên Lãng",
+        "pID": "31"
+    },
+    {
+        "dID": "316",
+        "dName": "Vĩnh Bảo",
+        "pID": "31"
+    },
+    {
+        "dID": "317",
+        "dName": "Cát Hải",
+        "pID": "31"
+    },
+    {
+        "dID": "323",
+        "dName": "Hưng Yên",
+        "pID": "33"
+    },
+    {
+        "dID": "325",
+        "dName": "Văn Lâm",
+        "pID": "33"
+    },
+    {
+        "dID": "326",
+        "dName": "Văn Giang",
+        "pID": "33"
+    },
+    {
+        "dID": "327",
+        "dName": "Yên Mỹ",
+        "pID": "33"
+    },
+    {
+        "dID": "328",
+        "dName": "Mỹ Hào",
+        "pID": "33"
+    },
+    {
+        "dID": "329",
+        "dName": "Ân Thi",
+        "pID": "33"
+    },
+    {
+        "dID": "330",
+        "dName": "Khoái Châu",
+        "pID": "33"
+    },
+    {
+        "dID": "331",
+        "dName": "Kim Động",
+        "pID": "33"
+    },
+    {
+        "dID": "332",
+        "dName": "Tiên Lữ",
+        "pID": "33"
+    },
+    {
+        "dID": "333",
+        "dName": "Phù Cừ",
+        "pID": "33"
+    },
+    {
+        "dID": "336",
+        "dName": "Thái Bình",
+        "pID": "34"
+    },
+    {
+        "dID": "338",
+        "dName": "Quỳnh Phụ",
+        "pID": "34"
+    },
+    {
+        "dID": "339",
+        "dName": "Hưng Hà",
+        "pID": "34"
+    },
+    {
+        "dID": "340",
+        "dName": "Đông Hưng",
+        "pID": "34"
+    },
+    {
+        "dID": "341",
+        "dName": "Thái Thụy",
+        "pID": "34"
+    },
+    {
+        "dID": "342",
+        "dName": "Tiền Hải",
+        "pID": "34"
+    },
+    {
+        "dID": "343",
+        "dName": "Kiến Xương",
+        "pID": "34"
+    },
+    {
+        "dID": "344",
+        "dName": "Vũ Thư",
+        "pID": "34"
+    },
+    {
+        "dID": "347",
+        "dName": "Phủ Lý",
+        "pID": "35"
+    },
+    {
+        "dID": "349",
+        "dName": "Duy Tiên",
+        "pID": "35"
+    },
+    {
+        "dID": "350",
+        "dName": "Kim Bảng",
+        "pID": "35"
+    },
+    {
+        "dID": "351",
+        "dName": "Thanh Liêm",
+        "pID": "35"
+    },
+    {
+        "dID": "352",
+        "dName": "Bình Lục",
+        "pID": "35"
+    },
+    {
+        "dID": "353",
+        "dName": "Lý Nhân",
+        "pID": "35"
+    },
+    {
+        "dID": "356",
+        "dName": "Nam Định",
+        "pID": "36"
+    },
+    {
+        "dID": "358",
+        "dName": "Mỹ Lộc",
+        "pID": "36"
+    },
+    {
+        "dID": "359",
+        "dName": "Vụ Bản",
+        "pID": "36"
+    },
+    {
+        "dID": "360",
+        "dName": "Ý Yên",
+        "pID": "36"
+    },
+    {
+        "dID": "361",
+        "dName": "Nghĩa Hưng",
+        "pID": "36"
+    },
+    {
+        "dID": "362",
+        "dName": "Nam Trực",
+        "pID": "36"
+    },
+    {
+        "dID": "363",
+        "dName": "Trực Ninh",
+        "pID": "36"
+    },
+    {
+        "dID": "364",
+        "dName": "Xuân Trường",
+        "pID": "36"
+    },
+    {
+        "dID": "365",
+        "dName": "Giao Thủy",
+        "pID": "36"
+    },
+    {
+        "dID": "366",
+        "dName": "Hải Hậu",
+        "pID": "36"
+    },
+    {
+        "dID": "369",
+        "dName": "Ninh Bình",
+        "pID": "37"
+    },
+    {
+        "dID": "370",
+        "dName": "Tam Điệp",
+        "pID": "37"
+    },
+    {
+        "dID": "372",
+        "dName": "Nho Quan",
+        "pID": "37"
+    },
+    {
+        "dID": "373",
+        "dName": "Gia Viễn",
+        "pID": "37"
+    },
+    {
+        "dID": "374",
+        "dName": "Hoa Lư",
+        "pID": "37"
+    },
+    {
+        "dID": "375",
+        "dName": "Yên Khánh",
+        "pID": "37"
+    },
+    {
+        "dID": "376",
+        "dName": "Kim Sơn",
+        "pID": "37"
+    },
+    {
+        "dID": "377",
+        "dName": "Yên Mô",
+        "pID": "37"
+    },
+    {
+        "dID": "380",
+        "dName": "Thanh Hóa",
+        "pID": "38"
+    },
+    {
+        "dID": "381",
+        "dName": "Bỉm Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "382",
+        "dName": "Sầm Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "384",
+        "dName": "Mường Lát",
+        "pID": "38"
+    },
+    {
+        "dID": "385",
+        "dName": "Quan Hóa",
+        "pID": "38"
+    },
+    {
+        "dID": "386",
+        "dName": "Bá Thước",
+        "pID": "38"
+    },
+    {
+        "dID": "387",
+        "dName": "Quan Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "388",
+        "dName": "Lang Chánh",
+        "pID": "38"
+    },
+    {
+        "dID": "389",
+        "dName": "Ngọc Lặc",
+        "pID": "38"
+    },
+    {
+        "dID": "390",
+        "dName": "Cẩm Thủy",
+        "pID": "38"
+    },
+    {
+        "dID": "391",
+        "dName": "Thạch Thành",
+        "pID": "38"
+    },
+    {
+        "dID": "392",
+        "dName": "Hà Trung",
+        "pID": "38"
+    },
+    {
+        "dID": "393",
+        "dName": "Vĩnh Lộc",
+        "pID": "38"
+    },
+    {
+        "dID": "394",
+        "dName": "Yên Định",
+        "pID": "38"
+    },
+    {
+        "dID": "395",
+        "dName": "Thọ Xuân",
+        "pID": "38"
+    },
+    {
+        "dID": "396",
+        "dName": "Thường Xuân",
+        "pID": "38"
+    },
+    {
+        "dID": "397",
+        "dName": "Triệu Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "398",
+        "dName": "Thiệu Hóa",
+        "pID": "38"
+    },
+    {
+        "dID": "399",
+        "dName": "Hoằng Hóa",
+        "pID": "38"
+    },
+    {
+        "dID": "400",
+        "dName": "Hậu Lộc",
+        "pID": "38"
+    },
+    {
+        "dID": "401",
+        "dName": "Nga Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "402",
+        "dName": "Như Xuân",
+        "pID": "38"
+    },
+    {
+        "dID": "403",
+        "dName": "Như Thanh",
+        "pID": "38"
+    },
+    {
+        "dID": "404",
+        "dName": "Nông Cống",
+        "pID": "38"
+    },
+    {
+        "dID": "405",
+        "dName": "Đông Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "406",
+        "dName": "Quảng Xương",
+        "pID": "38"
+    },
+    {
+        "dID": "407",
+        "dName": "Nghi Sơn",
+        "pID": "38"
+    },
+    {
+        "dID": "412",
+        "dName": "Vinh",
+        "pID": "40"
+    },
+    {
+        "dID": "413",
+        "dName": "Cửa Lò",
+        "pID": "40"
+    },
+    {
+        "dID": "414",
+        "dName": "Thái Hoà",
+        "pID": "40"
+    },
+    {
+        "dID": "415",
+        "dName": "Quế Phong",
+        "pID": "40"
+    },
+    {
+        "dID": "416",
+        "dName": "Quỳ Châu",
+        "pID": "40"
+    },
+    {
+        "dID": "417",
+        "dName": "Kỳ Sơn",
+        "pID": "40"
+    },
+    {
+        "dID": "418",
+        "dName": "Tương Dương",
+        "pID": "40"
+    },
+    {
+        "dID": "419",
+        "dName": "Nghĩa Đàn",
+        "pID": "40"
+    },
+    {
+        "dID": "420",
+        "dName": "Quỳ Hợp",
+        "pID": "40"
+    },
+    {
+        "dID": "421",
+        "dName": "Quỳnh Lưu",
+        "pID": "40"
+    },
+    {
+        "dID": "422",
+        "dName": "Con Cuông",
+        "pID": "40"
+    },
+    {
+        "dID": "423",
+        "dName": "Tân Kỳ",
+        "pID": "40"
+    },
+    {
+        "dID": "424",
+        "dName": "Anh Sơn",
+        "pID": "40"
+    },
+    {
+        "dID": "425",
+        "dName": "Diễn Châu",
+        "pID": "40"
+    },
+    {
+        "dID": "426",
+        "dName": "Yên Thành",
+        "pID": "40"
+    },
+    {
+        "dID": "427",
+        "dName": "Đô Lương",
+        "pID": "40"
+    },
+    {
+        "dID": "428",
+        "dName": "Thanh Chương",
+        "pID": "40"
+    },
+    {
+        "dID": "429",
+        "dName": "Nghi Lộc",
+        "pID": "40"
+    },
+    {
+        "dID": "430",
+        "dName": "Nam Đàn",
+        "pID": "40"
+    },
+    {
+        "dID": "431",
+        "dName": "Hưng Nguyên",
+        "pID": "40"
+    },
+    {
+        "dID": "432",
+        "dName": "Hoàng Mai",
+        "pID": "40"
+    },
+    {
+        "dID": "436",
+        "dName": "Hà Tĩnh",
+        "pID": "42"
+    },
+    {
+        "dID": "437",
+        "dName": "Hồng Lĩnh",
+        "pID": "42"
+    },
+    {
+        "dID": "439",
+        "dName": "Hương Sơn",
+        "pID": "42"
+    },
+    {
+        "dID": "440",
+        "dName": "Đức Thọ",
+        "pID": "42"
+    },
+    {
+        "dID": "441",
+        "dName": "Vũ Quang",
+        "pID": "42"
+    },
+    {
+        "dID": "442",
+        "dName": "Nghi Xuân",
+        "pID": "42"
+    },
+    {
+        "dID": "443",
+        "dName": "Can Lộc",
+        "pID": "42"
+    },
+    {
+        "dID": "444",
+        "dName": "Hương Khê",
+        "pID": "42"
+    },
+    {
+        "dID": "445",
+        "dName": "Thạch Hà",
+        "pID": "42"
+    },
+    {
+        "dID": "446",
+        "dName": "Cẩm Xuyên",
+        "pID": "42"
+    },
+    {
+        "dID": "447",
+        "dName": "Kỳ Anh",
+        "pID": "42"
+    },
+    {
+        "dID": "448",
+        "dName": "Lộc Hà",
+        "pID": "42"
+    },
+    {
+        "dID": "449",
+        "dName": "Kỳ Anh",
+        "pID": "42"
+    },
+    {
+        "dID": "450",
+        "dName": "Đồng Hới",
+        "pID": "44"
+    },
+    {
+        "dID": "452",
+        "dName": "Minh Hóa",
+        "pID": "44"
+    },
+    {
+        "dID": "453",
+        "dName": "Tuyên Hóa",
+        "pID": "44"
+    },
+    {
+        "dID": "454",
+        "dName": "Quảng Trạch",
+        "pID": "44"
+    },
+    {
+        "dID": "455",
+        "dName": "Bố Trạch",
+        "pID": "44"
+    },
+    {
+        "dID": "456",
+        "dName": "Quảng Ninh",
+        "pID": "44"
+    },
+    {
+        "dID": "457",
+        "dName": "Lệ Thủy",
+        "pID": "44"
+    },
+    {
+        "dID": "458",
+        "dName": "Ba Đồn",
+        "pID": "44"
+    },
+    {
+        "dID": "461",
+        "dName": "Đông Hà",
+        "pID": "45"
+    },
+    {
+        "dID": "462",
+        "dName": "Quảng Trị",
+        "pID": "45"
+    },
+    {
+        "dID": "464",
+        "dName": "Vĩnh Linh",
+        "pID": "45"
+    },
+    {
+        "dID": "465",
+        "dName": "Hướng Hóa",
+        "pID": "45"
+    },
+    {
+        "dID": "466",
+        "dName": "Gio Linh",
+        "pID": "45"
+    },
+    {
+        "dID": "467",
+        "dName": "Đa Krông",
+        "pID": "45"
+    },
+    {
+        "dID": "468",
+        "dName": "Cam Lộ",
+        "pID": "45"
+    },
+    {
+        "dID": "469",
+        "dName": "Triệu Phong",
+        "pID": "45"
+    },
+    {
+        "dID": "470",
+        "dName": "Hải Lăng",
+        "pID": "45"
+    },
+    {
+        "dID": "474",
+        "dName": "Huế",
+        "pID": "46"
+    },
+    {
+        "dID": "476",
+        "dName": "Phong Điền",
+        "pID": "46"
+    },
+    {
+        "dID": "477",
+        "dName": "Quảng Điền",
+        "pID": "46"
+    },
+    {
+        "dID": "478",
+        "dName": "Phú Vang",
+        "pID": "46"
+    },
+    {
+        "dID": "479",
+        "dName": "Hương Thủy",
+        "pID": "46"
+    },
+    {
+        "dID": "480",
+        "dName": "Hương Trà",
+        "pID": "46"
+    },
+    {
+        "dID": "481",
+        "dName": "A Lưới",
+        "pID": "46"
+    },
+    {
+        "dID": "482",
+        "dName": "Phú Lộc",
+        "pID": "46"
+    },
+    {
+        "dID": "483",
+        "dName": "Nam Đông",
+        "pID": "46"
+    },
+    {
+        "dID": "490",
+        "dName": "Liên Chiểu",
+        "pID": "48"
+    },
+    {
+        "dID": "491",
+        "dName": "Thanh Khê",
+        "pID": "48"
+    },
+    {
+        "dID": "492",
+        "dName": "Hải Châu",
+        "pID": "48"
+    },
+    {
+        "dID": "493",
+        "dName": "Sơn Trà",
+        "pID": "48"
+    },
+    {
+        "dID": "494",
+        "dName": "Ngũ Hành Sơn",
+        "pID": "48"
+    },
+    {
+        "dID": "495",
+        "dName": "Cẩm Lệ",
+        "pID": "48"
+    },
+    {
+        "dID": "497",
+        "dName": "Hòa Vang",
+        "pID": "48"
+    },
+    {
+        "dID": "502",
+        "dName": "Tam Kỳ",
+        "pID": "49"
+    },
+    {
+        "dID": "503",
+        "dName": "Hội An",
+        "pID": "49"
+    },
+    {
+        "dID": "504",
+        "dName": "Tây Giang",
+        "pID": "49"
+    },
+    {
+        "dID": "505",
+        "dName": "Đông Giang",
+        "pID": "49"
+    },
+    {
+        "dID": "506",
+        "dName": "Đại Lộc",
+        "pID": "49"
+    },
+    {
+        "dID": "507",
+        "dName": "Điện Bàn",
+        "pID": "49"
+    },
+    {
+        "dID": "508",
+        "dName": "Duy Xuyên",
+        "pID": "49"
+    },
+    {
+        "dID": "509",
+        "dName": "Quế Sơn",
+        "pID": "49"
+    },
+    {
+        "dID": "510",
+        "dName": "Nam Giang",
+        "pID": "49"
+    },
+    {
+        "dID": "511",
+        "dName": "Phước Sơn",
+        "pID": "49"
+    },
+    {
+        "dID": "512",
+        "dName": "Hiệp Đức",
+        "pID": "49"
+    },
+    {
+        "dID": "513",
+        "dName": "Thăng Bình",
+        "pID": "49"
+    },
+    {
+        "dID": "514",
+        "dName": "Tiên Phước",
+        "pID": "49"
+    },
+    {
+        "dID": "515",
+        "dName": "Bắc Trà My",
+        "pID": "49"
+    },
+    {
+        "dID": "516",
+        "dName": "Nam Trà My",
+        "pID": "49"
+    },
+    {
+        "dID": "517",
+        "dName": "Núi Thành",
+        "pID": "49"
+    },
+    {
+        "dID": "518",
+        "dName": "Phú Ninh",
+        "pID": "49"
+    },
+    {
+        "dID": "519",
+        "dName": "Nông Sơn",
+        "pID": "49"
+    },
+    {
+        "dID": "522",
+        "dName": "Quảng Ngãi",
+        "pID": "51"
+    },
+    {
+        "dID": "524",
+        "dName": "Bình Sơn",
+        "pID": "51"
+    },
+    {
+        "dID": "525",
+        "dName": "Trà Bồng",
+        "pID": "51"
+    },
+    {
+        "dID": "527",
+        "dName": "Sơn Tịnh",
+        "pID": "51"
+    },
+    {
+        "dID": "528",
+        "dName": "Tư Nghĩa",
+        "pID": "51"
+    },
+    {
+        "dID": "529",
+        "dName": "Sơn Hà",
+        "pID": "51"
+    },
+    {
+        "dID": "530",
+        "dName": "Sơn Tây",
+        "pID": "51"
+    },
+    {
+        "dID": "531",
+        "dName": "Minh Long",
+        "pID": "51"
+    },
+    {
+        "dID": "532",
+        "dName": "Nghĩa Hành",
+        "pID": "51"
+    },
+    {
+        "dID": "533",
+        "dName": "Mộ Đức",
+        "pID": "51"
+    },
+    {
+        "dID": "534",
+        "dName": "Đức Phổ",
+        "pID": "51"
+    },
+    {
+        "dID": "535",
+        "dName": "Ba Tơ",
+        "pID": "51"
+    },
+    {
+        "dID": "540",
+        "dName": "Quy Nhơn",
+        "pID": "52"
+    },
+    {
+        "dID": "542",
+        "dName": "An Lão",
+        "pID": "52"
+    },
+    {
+        "dID": "543",
+        "dName": "Hoài Nhơn",
+        "pID": "52"
+    },
+    {
+        "dID": "544",
+        "dName": "Hoài Ân",
+        "pID": "52"
+    },
+    {
+        "dID": "545",
+        "dName": "Phù Mỹ",
+        "pID": "52"
+    },
+    {
+        "dID": "546",
+        "dName": "Vĩnh Thạnh",
+        "pID": "52"
+    },
+    {
+        "dID": "547",
+        "dName": "Tây Sơn",
+        "pID": "52"
+    },
+    {
+        "dID": "548",
+        "dName": "Phù Cát",
+        "pID": "52"
+    },
+    {
+        "dID": "549",
+        "dName": "An Nhơn",
+        "pID": "52"
+    },
+    {
+        "dID": "550",
+        "dName": "Tuy Phước",
+        "pID": "52"
+    },
+    {
+        "dID": "551",
+        "dName": "Vân Canh",
+        "pID": "52"
+    },
+    {
+        "dID": "555",
+        "dName": "Tuy Hoà",
+        "pID": "54"
+    },
+    {
+        "dID": "557",
+        "dName": "Sông Cầu",
+        "pID": "54"
+    },
+    {
+        "dID": "558",
+        "dName": "Đồng Xuân",
+        "pID": "54"
+    },
+    {
+        "dID": "559",
+        "dName": "Tuy An",
+        "pID": "54"
+    },
+    {
+        "dID": "560",
+        "dName": "Sơn Hòa",
+        "pID": "54"
+    },
+    {
+        "dID": "561",
+        "dName": "Sông Hinh",
+        "pID": "54"
+    },
+    {
+        "dID": "562",
+        "dName": "Tây Hoà",
+        "pID": "54"
+    },
+    {
+        "dID": "563",
+        "dName": "Phú Hoà",
+        "pID": "54"
+    },
+    {
+        "dID": "564",
+        "dName": "Đông Hòa",
+        "pID": "54"
+    },
+    {
+        "dID": "568",
+        "dName": "Nha Trang",
+        "pID": "56"
+    },
+    {
+        "dID": "569",
+        "dName": "Cam Ranh",
+        "pID": "56"
+    },
+    {
+        "dID": "570",
+        "dName": "Cam Lâm",
+        "pID": "56"
+    },
+    {
+        "dID": "571",
+        "dName": "Vạn Ninh",
+        "pID": "56"
+    },
+    {
+        "dID": "572",
+        "dName": "Ninh Hòa",
+        "pID": "56"
+    },
+    {
+        "dID": "573",
+        "dName": "Khánh Vĩnh",
+        "pID": "56"
+    },
+    {
+        "dID": "574",
+        "dName": "Diên Khánh",
+        "pID": "56"
+    },
+    {
+        "dID": "575",
+        "dName": "Khánh Sơn",
+        "pID": "56"
+    },
+    {
+        "dID": "576",
+        "dName": "Trường Sa",
+        "pID": "56"
+    },
+    {
+        "dID": "582",
+        "dName": "Phan Rang-Tháp Chàm",
+        "pID": "58"
+    },
+    {
+        "dID": "584",
+        "dName": "Bác Ái",
+        "pID": "58"
+    },
+    {
+        "dID": "585",
+        "dName": "Ninh Sơn",
+        "pID": "58"
+    },
+    {
+        "dID": "586",
+        "dName": "Ninh Hải",
+        "pID": "58"
+    },
+    {
+        "dID": "587",
+        "dName": "Ninh Phước",
+        "pID": "58"
+    },
+    {
+        "dID": "588",
+        "dName": "Thuận Bắc",
+        "pID": "58"
+    },
+    {
+        "dID": "589",
+        "dName": "Thuận Nam",
+        "pID": "58"
+    },
+    {
+        "dID": "593",
+        "dName": "Phan Thiết",
+        "pID": "60"
+    },
+    {
+        "dID": "594",
+        "dName": "La Gi",
+        "pID": "60"
+    },
+    {
+        "dID": "595",
+        "dName": "Tuy Phong",
+        "pID": "60"
+    },
+    {
+        "dID": "596",
+        "dName": "Bắc Bình",
+        "pID": "60"
+    },
+    {
+        "dID": "597",
+        "dName": "Hàm Thuận Bắc",
+        "pID": "60"
+    },
+    {
+        "dID": "598",
+        "dName": "Hàm Thuận Nam",
+        "pID": "60"
+    },
+    {
+        "dID": "599",
+        "dName": "Tánh Linh",
+        "pID": "60"
+    },
+    {
+        "dID": "600",
+        "dName": "Đức Linh",
+        "pID": "60"
+    },
+    {
+        "dID": "601",
+        "dName": "Hàm Tân",
+        "pID": "60"
+    },
+    {
+        "dID": "602",
+        "dName": "Phú Quí",
+        "pID": "60"
+    },
+    {
+        "dID": "608",
+        "dName": "Kon Tum",
+        "pID": "62"
+    },
+    {
+        "dID": "610",
+        "dName": "Đắk Glei",
+        "pID": "62"
+    },
+    {
+        "dID": "611",
+        "dName": "Ngọc Hồi",
+        "pID": "62"
+    },
+    {
+        "dID": "612",
+        "dName": "Đắk Tô",
+        "pID": "62"
+    },
+    {
+        "dID": "613",
+        "dName": "Kon Plông",
+        "pID": "62"
+    },
+    {
+        "dID": "614",
+        "dName": "Kon Rẫy",
+        "pID": "62"
+    },
+    {
+        "dID": "615",
+        "dName": "Đắk Hà",
+        "pID": "62"
+    },
+    {
+        "dID": "616",
+        "dName": "Sa Thầy",
+        "pID": "62"
+    },
+    {
+        "dID": "617",
+        "dName": "Tu Mơ Rông",
+        "pID": "62"
+    },
+    {
+        "dID": "618",
+        "dName": "Ia H' Drai",
+        "pID": "62"
+    },
+    {
+        "dID": "622",
+        "dName": "Pleiku",
+        "pID": "64"
+    },
+    {
+        "dID": "623",
+        "dName": "An Khê",
+        "pID": "64"
+    },
+    {
+        "dID": "624",
+        "dName": "Ayun Pa",
+        "pID": "64"
+    },
+    {
+        "dID": "625",
+        "dName": "KBang",
+        "pID": "64"
+    },
+    {
+        "dID": "626",
+        "dName": "Đăk Đoa",
+        "pID": "64"
+    },
+    {
+        "dID": "627",
+        "dName": "Chư Păh",
+        "pID": "64"
+    },
+    {
+        "dID": "628",
+        "dName": "Ia Grai",
+        "pID": "64"
+    },
+    {
+        "dID": "629",
+        "dName": "Mang Yang",
+        "pID": "64"
+    },
+    {
+        "dID": "630",
+        "dName": "Kông Chro",
+        "pID": "64"
+    },
+    {
+        "dID": "631",
+        "dName": "Đức Cơ",
+        "pID": "64"
+    },
+    {
+        "dID": "632",
+        "dName": "Chư Prông",
+        "pID": "64"
+    },
+    {
+        "dID": "633",
+        "dName": "Chư Sê",
+        "pID": "64"
+    },
+    {
+        "dID": "634",
+        "dName": "Đăk Pơ",
+        "pID": "64"
+    },
+    {
+        "dID": "635",
+        "dName": "Ia Pa",
+        "pID": "64"
+    },
+    {
+        "dID": "637",
+        "dName": "Krông Pa",
+        "pID": "64"
+    },
+    {
+        "dID": "638",
+        "dName": "Phú Thiện",
+        "pID": "64"
+    },
+    {
+        "dID": "639",
+        "dName": "Chư Pưh",
+        "pID": "64"
+    },
+    {
+        "dID": "643",
+        "dName": "Buôn Ma Thuột",
+        "pID": "66"
+    },
+    {
+        "dID": "644",
+        "dName": "Buôn Hồ",
+        "pID": "66"
+    },
+    {
+        "dID": "645",
+        "dName": "Ea H'leo",
+        "pID": "66"
+    },
+    {
+        "dID": "646",
+        "dName": "Ea Súp",
+        "pID": "66"
+    },
+    {
+        "dID": "647",
+        "dName": "Buôn Đôn",
+        "pID": "66"
+    },
+    {
+        "dID": "648",
+        "dName": "Cư M'gar",
+        "pID": "66"
+    },
+    {
+        "dID": "649",
+        "dName": "Krông Búk",
+        "pID": "66"
+    },
+    {
+        "dID": "650",
+        "dName": "Krông Năng",
+        "pID": "66"
+    },
+    {
+        "dID": "651",
+        "dName": "Ea Kar",
+        "pID": "66"
+    },
+    {
+        "dID": "652",
+        "dName": "M'Đrắk",
+        "pID": "66"
+    },
+    {
+        "dID": "653",
+        "dName": "Krông Bông",
+        "pID": "66"
+    },
+    {
+        "dID": "654",
+        "dName": "Krông Pắc",
+        "pID": "66"
+    },
+    {
+        "dID": "655",
+        "dName": "Krông A Na",
+        "pID": "66"
+    },
+    {
+        "dID": "656",
+        "dName": "Lắk",
+        "pID": "66"
+    },
+    {
+        "dID": "657",
+        "dName": "Cư Kuin",
+        "pID": "66"
+    },
+    {
+        "dID": "660",
+        "dName": "Gia Nghĩa",
+        "pID": "67"
+    },
+    {
+        "dID": "661",
+        "dName": "Đăk Glong",
+        "pID": "67"
+    },
+    {
+        "dID": "662",
+        "dName": "Cư Jút",
+        "pID": "67"
+    },
+    {
+        "dID": "663",
+        "dName": "Đắk Mil",
+        "pID": "67"
+    },
+    {
+        "dID": "664",
+        "dName": "Krông Nô",
+        "pID": "67"
+    },
+    {
+        "dID": "665",
+        "dName": "Đắk Song",
+        "pID": "67"
+    },
+    {
+        "dID": "666",
+        "dName": "Đắk R'Lấp",
+        "pID": "67"
+    },
+    {
+        "dID": "667",
+        "dName": "Tuy Đức",
+        "pID": "67"
+    },
+    {
+        "dID": "672",
+        "dName": "Đà Lạt",
+        "pID": "68"
+    },
+    {
+        "dID": "673",
+        "dName": "Bảo Lộc",
+        "pID": "68"
+    },
+    {
+        "dID": "674",
+        "dName": "Đam Rông",
+        "pID": "68"
+    },
+    {
+        "dID": "675",
+        "dName": "Lạc Dương",
+        "pID": "68"
+    },
+    {
+        "dID": "676",
+        "dName": "Lâm Hà",
+        "pID": "68"
+    },
+    {
+        "dID": "677",
+        "dName": "Đơn Dương",
+        "pID": "68"
+    },
+    {
+        "dID": "678",
+        "dName": "Đức Trọng",
+        "pID": "68"
+    },
+    {
+        "dID": "679",
+        "dName": "Di Linh",
+        "pID": "68"
+    },
+    {
+        "dID": "680",
+        "dName": "Bảo Lâm",
+        "pID": "68"
+    },
+    {
+        "dID": "681",
+        "dName": "Đạ Huoai",
+        "pID": "68"
+    },
+    {
+        "dID": "682",
+        "dName": "Đạ Tẻh",
+        "pID": "68"
+    },
+    {
+        "dID": "683",
+        "dName": "Cát Tiên",
+        "pID": "68"
+    },
+    {
+        "dID": "688",
+        "dName": "Phước Long",
+        "pID": "70"
+    },
+    {
+        "dID": "689",
+        "dName": "Đồng Xoài",
+        "pID": "70"
+    },
+    {
+        "dID": "690",
+        "dName": "Bình Long",
+        "pID": "70"
+    },
+    {
+        "dID": "691",
+        "dName": "Bù Gia Mập",
+        "pID": "70"
+    },
+    {
+        "dID": "692",
+        "dName": "Lộc Ninh",
+        "pID": "70"
+    },
+    {
+        "dID": "693",
+        "dName": "Bù Đốp",
+        "pID": "70"
+    },
+    {
+        "dID": "694",
+        "dName": "Hớn Quản",
+        "pID": "70"
+    },
+    {
+        "dID": "695",
+        "dName": "Đồng Phú",
+        "pID": "70"
+    },
+    {
+        "dID": "696",
+        "dName": "Bù Đăng",
+        "pID": "70"
+    },
+    {
+        "dID": "697",
+        "dName": "Chơn Thành",
+        "pID": "70"
+    },
+    {
+        "dID": "698",
+        "dName": "Phú Riềng",
+        "pID": "70"
+    },
+    {
+        "dID": "703",
+        "dName": "Tây Ninh",
+        "pID": "72"
+    },
+    {
+        "dID": "705",
+        "dName": "Tân Biên",
+        "pID": "72"
+    },
+    {
+        "dID": "706",
+        "dName": "Tân Châu",
+        "pID": "72"
+    },
+    {
+        "dID": "707",
+        "dName": "Dương Minh Châu",
+        "pID": "72"
+    },
+    {
+        "dID": "708",
+        "dName": "Châu Thành",
+        "pID": "72"
+    },
+    {
+        "dID": "709",
+        "dName": "Hòa Thành",
+        "pID": "72"
+    },
+    {
+        "dID": "710",
+        "dName": "Gò Dầu",
+        "pID": "72"
+    },
+    {
+        "dID": "711",
+        "dName": "Bến Cầu",
+        "pID": "72"
+    },
+    {
+        "dID": "712",
+        "dName": "Trảng Bàng",
+        "pID": "72"
+    },
+    {
+        "dID": "718",
+        "dName": "Thủ Dầu Một",
+        "pID": "74"
+    },
+    {
+        "dID": "719",
+        "dName": "Bàu Bàng",
+        "pID": "74"
+    },
+    {
+        "dID": "720",
+        "dName": "Dầu Tiếng",
+        "pID": "74"
+    },
+    {
+        "dID": "721",
+        "dName": "Bến Cát",
+        "pID": "74"
+    },
+    {
+        "dID": "722",
+        "dName": "Phú Giáo",
+        "pID": "74"
+    },
+    {
+        "dID": "723",
+        "dName": "Tân Uyên",
+        "pID": "74"
+    },
+    {
+        "dID": "724",
+        "dName": "Dĩ An",
+        "pID": "74"
+    },
+    {
+        "dID": "725",
+        "dName": "Thuận An",
+        "pID": "74"
+    },
+    {
+        "dID": "726",
+        "dName": "Bắc Tân Uyên",
+        "pID": "74"
+    },
+    {
+        "dID": "731",
+        "dName": "Biên Hòa",
+        "pID": "75"
+    },
+    {
+        "dID": "732",
+        "dName": "Long Khánh",
+        "pID": "75"
+    },
+    {
+        "dID": "734",
+        "dName": "Tân Phú",
+        "pID": "75"
+    },
+    {
+        "dID": "735",
+        "dName": "Vĩnh Cửu",
+        "pID": "75"
+    },
+    {
+        "dID": "736",
+        "dName": "Định Quán",
+        "pID": "75"
+    },
+    {
+        "dID": "737",
+        "dName": "Trảng Bom",
+        "pID": "75"
+    },
+    {
+        "dID": "738",
+        "dName": "Thống Nhất",
+        "pID": "75"
+    },
+    {
+        "dID": "739",
+        "dName": "Cẩm Mỹ",
+        "pID": "75"
+    },
+    {
+        "dID": "740",
+        "dName": "Long Thành",
+        "pID": "75"
+    },
+    {
+        "dID": "741",
+        "dName": "Xuân Lộc",
+        "pID": "75"
+    },
+    {
+        "dID": "742",
+        "dName": "Nhơn Trạch",
+        "pID": "75"
+    },
+    {
+        "dID": "747",
+        "dName": "Vũng Tàu",
+        "pID": "77"
+    },
+    {
+        "dID": "748",
+        "dName": "Bà Rịa",
+        "pID": "77"
+    },
+    {
+        "dID": "750",
+        "dName": "Châu Đức",
+        "pID": "77"
+    },
+    {
+        "dID": "751",
+        "dName": "Xuyên Mộc",
+        "pID": "77"
+    },
+    {
+        "dID": "752",
+        "dName": "Long Điền",
+        "pID": "77"
+    },
+    {
+        "dID": "753",
+        "dName": "Đất Đỏ",
+        "pID": "77"
+    },
+    {
+        "dID": "754",
+        "dName": "Phú Mỹ",
+        "pID": "77"
+    },
+    {
+        "dID": "760",
+        "dName": "1",
+        "pID": "79"
+    },
+    {
+        "dID": "761",
+        "dName": "12",
+        "pID": "79"
+    },
+    {
+        "dID": "764",
+        "dName": "Gò Vấp",
+        "pID": "79"
+    },
+    {
+        "dID": "765",
+        "dName": "Bình Thạnh",
+        "pID": "79"
+    },
+    {
+        "dID": "766",
+        "dName": "Tân Bình",
+        "pID": "79"
+    },
+    {
+        "dID": "767",
+        "dName": "Tân Phú",
+        "pID": "79"
+    },
+    {
+        "dID": "768",
+        "dName": "Phú Nhuận",
+        "pID": "79"
+    },
+    {
+        "dID": "769",
+        "dName": "Thủ Đức",
+        "pID": "79"
+    },
+    {
+        "dID": "770",
+        "dName": "3",
+        "pID": "79"
+    },
+    {
+        "dID": "771",
+        "dName": "10",
+        "pID": "79"
+    },
+    {
+        "dID": "772",
+        "dName": "11",
+        "pID": "79"
+    },
+    {
+        "dID": "773",
+        "dName": "4",
+        "pID": "79"
+    },
+    {
+        "dID": "774",
+        "dName": "5",
+        "pID": "79"
+    },
+    {
+        "dID": "775",
+        "dName": "6",
+        "pID": "79"
+    },
+    {
+        "dID": "776",
+        "dName": "8",
+        "pID": "79"
+    },
+    {
+        "dID": "777",
+        "dName": "Bình Tân",
+        "pID": "79"
+    },
+    {
+        "dID": "778",
+        "dName": "7",
+        "pID": "79"
+    },
+    {
+        "dID": "783",
+        "dName": "Củ Chi",
+        "pID": "79"
+    },
+    {
+        "dID": "784",
+        "dName": "Hóc Môn",
+        "pID": "79"
+    },
+    {
+        "dID": "785",
+        "dName": "Bình Chánh",
+        "pID": "79"
+    },
+    {
+        "dID": "786",
+        "dName": "Nhà Bè",
+        "pID": "79"
+    },
+    {
+        "dID": "787",
+        "dName": "Cần Giờ",
+        "pID": "79"
+    },
+    {
+        "dID": "794",
+        "dName": "Tân An",
+        "pID": "80"
+    },
+    {
+        "dID": "795",
+        "dName": "Kiến Tường",
+        "pID": "80"
+    },
+    {
+        "dID": "796",
+        "dName": "Tân Hưng",
+        "pID": "80"
+    },
+    {
+        "dID": "797",
+        "dName": "Vĩnh Hưng",
+        "pID": "80"
+    },
+    {
+        "dID": "798",
+        "dName": "Mộc Hóa",
+        "pID": "80"
+    },
+    {
+        "dID": "799",
+        "dName": "Tân Thạnh",
+        "pID": "80"
+    },
+    {
+        "dID": "800",
+        "dName": "Thạnh Hóa",
+        "pID": "80"
+    },
+    {
+        "dID": "801",
+        "dName": "Đức Huệ",
+        "pID": "80"
+    },
+    {
+        "dID": "802",
+        "dName": "Đức Hòa",
+        "pID": "80"
+    },
+    {
+        "dID": "803",
+        "dName": "Bến Lức",
+        "pID": "80"
+    },
+    {
+        "dID": "804",
+        "dName": "Thủ Thừa",
+        "pID": "80"
+    },
+    {
+        "dID": "805",
+        "dName": "Tân Trụ",
+        "pID": "80"
+    },
+    {
+        "dID": "806",
+        "dName": "Cần Đước",
+        "pID": "80"
+    },
+    {
+        "dID": "807",
+        "dName": "Cần Giuộc",
+        "pID": "80"
+    },
+    {
+        "dID": "808",
+        "dName": "Châu Thành",
+        "pID": "80"
+    },
+    {
+        "dID": "815",
+        "dName": "Mỹ Tho",
+        "pID": "82"
+    },
+    {
+        "dID": "816",
+        "dName": "Gò Công",
+        "pID": "82"
+    },
+    {
+        "dID": "817",
+        "dName": "Cai Lậy",
+        "pID": "82"
+    },
+    {
+        "dID": "818",
+        "dName": "Tân Phước",
+        "pID": "82"
+    },
+    {
+        "dID": "819",
+        "dName": "Cái Bè",
+        "pID": "82"
+    },
+    {
+        "dID": "820",
+        "dName": "Cai Lậy",
+        "pID": "82"
+    },
+    {
+        "dID": "821",
+        "dName": "Châu Thành",
+        "pID": "82"
+    },
+    {
+        "dID": "822",
+        "dName": "Chợ Gạo",
+        "pID": "82"
+    },
+    {
+        "dID": "823",
+        "dName": "Gò Công Tây",
+        "pID": "82"
+    },
+    {
+        "dID": "824",
+        "dName": "Gò Công Đông",
+        "pID": "82"
+    },
+    {
+        "dID": "825",
+        "dName": "Tân Phú Đông",
+        "pID": "82"
+    },
+    {
+        "dID": "829",
+        "dName": "Bến Tre",
+        "pID": "83"
+    },
+    {
+        "dID": "831",
+        "dName": "Châu Thành",
+        "pID": "83"
+    },
+    {
+        "dID": "832",
+        "dName": "Chợ Lách",
+        "pID": "83"
+    },
+    {
+        "dID": "833",
+        "dName": "Mỏ Cày Nam",
+        "pID": "83"
+    },
+    {
+        "dID": "834",
+        "dName": "Giồng Trôm",
+        "pID": "83"
+    },
+    {
+        "dID": "835",
+        "dName": "Bình Đại",
+        "pID": "83"
+    },
+    {
+        "dID": "836",
+        "dName": "Ba Tri",
+        "pID": "83"
+    },
+    {
+        "dID": "837",
+        "dName": "Thạnh Phú",
+        "pID": "83"
+    },
+    {
+        "dID": "838",
+        "dName": "Mỏ Cày Bắc",
+        "pID": "83"
+    },
+    {
+        "dID": "842",
+        "dName": "Trà Vinh",
+        "pID": "84"
+    },
+    {
+        "dID": "844",
+        "dName": "Càng Long",
+        "pID": "84"
+    },
+    {
+        "dID": "845",
+        "dName": "Cầu Kè",
+        "pID": "84"
+    },
+    {
+        "dID": "846",
+        "dName": "Tiểu Cần",
+        "pID": "84"
+    },
+    {
+        "dID": "847",
+        "dName": "Châu Thành",
+        "pID": "84"
+    },
+    {
+        "dID": "848",
+        "dName": "Cầu Ngang",
+        "pID": "84"
+    },
+    {
+        "dID": "849",
+        "dName": "Trà Cú",
+        "pID": "84"
+    },
+    {
+        "dID": "850",
+        "dName": "Duyên Hải",
+        "pID": "84"
+    },
+    {
+        "dID": "851",
+        "dName": "Duyên Hải",
+        "pID": "84"
+    },
+    {
+        "dID": "855",
+        "dName": "Vĩnh Long",
+        "pID": "86"
+    },
+    {
+        "dID": "857",
+        "dName": "Long Hồ",
+        "pID": "86"
+    },
+    {
+        "dID": "858",
+        "dName": "Mang Thít",
+        "pID": "86"
+    },
+    {
+        "dID": "859",
+        "dName": "Vũng Liêm",
+        "pID": "86"
+    },
+    {
+        "dID": "860",
+        "dName": "Tam Bình",
+        "pID": "86"
+    },
+    {
+        "dID": "861",
+        "dName": "Bình Minh",
+        "pID": "86"
+    },
+    {
+        "dID": "862",
+        "dName": "Trà Ôn",
+        "pID": "86"
+    },
+    {
+        "dID": "863",
+        "dName": "Bình Tân",
+        "pID": "86"
+    },
+    {
+        "dID": "866",
+        "dName": "Cao Lãnh",
+        "pID": "87"
+    },
+    {
+        "dID": "867",
+        "dName": "Sa Đéc",
+        "pID": "87"
+    },
+    {
+        "dID": "868",
+        "dName": "Hồng Ngự",
+        "pID": "87"
+    },
+    {
+        "dID": "869",
+        "dName": "Tân Hồng",
+        "pID": "87"
+    },
+    {
+        "dID": "870",
+        "dName": "Hồng Ngự",
+        "pID": "87"
+    },
+    {
+        "dID": "871",
+        "dName": "Tam Nông",
+        "pID": "87"
+    },
+    {
+        "dID": "872",
+        "dName": "Tháp Mười",
+        "pID": "87"
+    },
+    {
+        "dID": "873",
+        "dName": "Cao Lãnh",
+        "pID": "87"
+    },
+    {
+        "dID": "874",
+        "dName": "Thanh Bình",
+        "pID": "87"
+    },
+    {
+        "dID": "875",
+        "dName": "Lấp Vò",
+        "pID": "87"
+    },
+    {
+        "dID": "876",
+        "dName": "Lai Vung",
+        "pID": "87"
+    },
+    {
+        "dID": "877",
+        "dName": "Châu Thành",
+        "pID": "87"
+    },
+    {
+        "dID": "883",
+        "dName": "Long Xuyên",
+        "pID": "89"
+    },
+    {
+        "dID": "884",
+        "dName": "Châu Đốc",
+        "pID": "89"
+    },
+    {
+        "dID": "886",
+        "dName": "An Phú",
+        "pID": "89"
+    },
+    {
+        "dID": "887",
+        "dName": "Tân Châu",
+        "pID": "89"
+    },
+    {
+        "dID": "888",
+        "dName": "Phú Tân",
+        "pID": "89"
+    },
+    {
+        "dID": "889",
+        "dName": "Châu Phú",
+        "pID": "89"
+    },
+    {
+        "dID": "890",
+        "dName": "Tịnh Biên",
+        "pID": "89"
+    },
+    {
+        "dID": "891",
+        "dName": "Tri Tôn",
+        "pID": "89"
+    },
+    {
+        "dID": "892",
+        "dName": "Châu Thành",
+        "pID": "89"
+    },
+    {
+        "dID": "893",
+        "dName": "Chợ Mới",
+        "pID": "89"
+    },
+    {
+        "dID": "894",
+        "dName": "Thoại Sơn",
+        "pID": "89"
+    },
+    {
+        "dID": "899",
+        "dName": "Rạch Giá",
+        "pID": "91"
+    },
+    {
+        "dID": "900",
+        "dName": "Hà Tiên",
+        "pID": "91"
+    },
+    {
+        "dID": "902",
+        "dName": "Kiên Lương",
+        "pID": "91"
+    },
+    {
+        "dID": "903",
+        "dName": "Hòn Đất",
+        "pID": "91"
+    },
+    {
+        "dID": "904",
+        "dName": "Tân Hiệp",
+        "pID": "91"
+    },
+    {
+        "dID": "905",
+        "dName": "Châu Thành",
+        "pID": "91"
+    },
+    {
+        "dID": "906",
+        "dName": "Giồng Riềng",
+        "pID": "91"
+    },
+    {
+        "dID": "907",
+        "dName": "Gò Quao",
+        "pID": "91"
+    },
+    {
+        "dID": "908",
+        "dName": "An Biên",
+        "pID": "91"
+    },
+    {
+        "dID": "909",
+        "dName": "An Minh",
+        "pID": "91"
+    },
+    {
+        "dID": "910",
+        "dName": "Vĩnh Thuận",
+        "pID": "91"
+    },
+    {
+        "dID": "911",
+        "dName": "Phú Quốc",
+        "pID": "91"
+    },
+    {
+        "dID": "912",
+        "dName": "Kiên Hải",
+        "pID": "91"
+    },
+    {
+        "dID": "913",
+        "dName": "U Minh Thượng",
+        "pID": "91"
+    },
+    {
+        "dID": "914",
+        "dName": "Giang Thành",
+        "pID": "91"
+    },
+    {
+        "dID": "916",
+        "dName": "Ninh Kiều",
+        "pID": "92"
+    },
+    {
+        "dID": "917",
+        "dName": "Ô Môn",
+        "pID": "92"
+    },
+    {
+        "dID": "918",
+        "dName": "Bình Thuỷ",
+        "pID": "92"
+    },
+    {
+        "dID": "919",
+        "dName": "Cái Răng",
+        "pID": "92"
+    },
+    {
+        "dID": "923",
+        "dName": "Thốt Nốt",
+        "pID": "92"
+    },
+    {
+        "dID": "924",
+        "dName": "Vĩnh Thạnh",
+        "pID": "92"
+    },
+    {
+        "dID": "925",
+        "dName": "Cờ Đỏ",
+        "pID": "92"
+    },
+    {
+        "dID": "926",
+        "dName": "Phong Điền",
+        "pID": "92"
+    },
+    {
+        "dID": "927",
+        "dName": "Thới Lai",
+        "pID": "92"
+    },
+    {
+        "dID": "930",
+        "dName": "Vị Thanh",
+        "pID": "93"
+    },
+    {
+        "dID": "931",
+        "dName": "Ngã Bảy",
+        "pID": "93"
+    },
+    {
+        "dID": "932",
+        "dName": "Châu Thành A",
+        "pID": "93"
+    },
+    {
+        "dID": "933",
+        "dName": "Châu Thành",
+        "pID": "93"
+    },
+    {
+        "dID": "934",
+        "dName": "Phụng Hiệp",
+        "pID": "93"
+    },
+    {
+        "dID": "935",
+        "dName": "Vị Thuỷ",
+        "pID": "93"
+    },
+    {
+        "dID": "936",
+        "dName": "Long Mỹ",
+        "pID": "93"
+    },
+    {
+        "dID": "937",
+        "dName": "Long Mỹ",
+        "pID": "93"
+    },
+    {
+        "dID": "941",
+        "dName": "Sóc Trăng",
+        "pID": "94"
+    },
+    {
+        "dID": "942",
+        "dName": "Châu Thành",
+        "pID": "94"
+    },
+    {
+        "dID": "943",
+        "dName": "Kế Sách",
+        "pID": "94"
+    },
+    {
+        "dID": "944",
+        "dName": "Mỹ Tú",
+        "pID": "94"
+    },
+    {
+        "dID": "945",
+        "dName": "Cù Lao Dung",
+        "pID": "94"
+    },
+    {
+        "dID": "946",
+        "dName": "Long Phú",
+        "pID": "94"
+    },
+    {
+        "dID": "947",
+        "dName": "Mỹ Xuyên",
+        "pID": "94"
+    },
+    {
+        "dID": "948",
+        "dName": "Ngã Năm",
+        "pID": "94"
+    },
+    {
+        "dID": "949",
+        "dName": "Thạnh Trị",
+        "pID": "94"
+    },
+    {
+        "dID": "950",
+        "dName": "Vĩnh Châu",
+        "pID": "94"
+    },
+    {
+        "dID": "951",
+        "dName": "Trần Đề",
+        "pID": "94"
+    },
+    {
+        "dID": "954",
+        "dName": "Bạc Liêu",
+        "pID": "95"
+    },
+    {
+        "dID": "956",
+        "dName": "Hồng Dân",
+        "pID": "95"
+    },
+    {
+        "dID": "957",
+        "dName": "Phước Long",
+        "pID": "95"
+    },
+    {
+        "dID": "958",
+        "dName": "Vĩnh Lợi",
+        "pID": "95"
+    },
+    {
+        "dID": "959",
+        "dName": "Giá Rai",
+        "pID": "95"
+    },
+    {
+        "dID": "960",
+        "dName": "Đông Hải",
+        "pID": "95"
+    },
+    {
+        "dID": "961",
+        "dName": "Hoà Bình",
+        "pID": "95"
+    },
+    {
+        "dID": "964",
+        "dName": "Cà Mau",
+        "pID": "96"
+    },
+    {
+        "dID": "966",
+        "dName": "U Minh",
+        "pID": "96"
+    },
+    {
+        "dID": "967",
+        "dName": "Thới Bình",
+        "pID": "96"
+    },
+    {
+        "dID": "968",
+        "dName": "Trần Văn Thời",
+        "pID": "96"
+    },
+    {
+        "dID": "969",
+        "dName": "Cái Nước",
+        "pID": "96"
+    },
+    {
+        "dID": "970",
+        "dName": "Đầm Dơi",
+        "pID": "96"
+    },
+    {
+        "dID": "971",
+        "dName": "Năm Căn",
+        "pID": "96"
+    },
+    {
+        "dID": "972",
+        "dName": "Phú Tân",
+        "pID": "96"
+    },
+    {
+        "dID": "973",
+        "dName": "Ngọc Hiển",
+        "pID": "96"
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "pID": "1",
+        "pName": "Hà Nội"
+    },
+    {
+        "pID": "2",
+        "pName": "Hà Giang"
+    },
+    {
+        "pID": "4",
+        "pName": "Cao Bằng"
+    },
+    {
+        "pID": "6",
+        "pName": "Bắc Kạn"
+    },
+    {
+        "pID": "8",
+        "pName": "Tuyên Quang"
+    },
+    {
+        "pID": "10",
+        "pName": "Lào Cai"
+    },
+    {
+        "pID": "11",
+        "pName": "Điện Biên"
+    },
+    {
+        "pID": "12",
+        "pName": "Lai Châu"
+    },
+    {
+        "pID": "14",
+        "pName": "Sơn La"
+    },
+    {
+        "pID": "15",
+        "pName": "Yên Bái"
+    },
+    {
+        "pID": "17",
+        "pName": "Hoà Bình"
+    },
+    {
+        "pID": "19",
+        "pName": "Thái Nguyên"
+    },
+    {
+        "pID": "20",
+        "pName": "Lạng Sơn"
+    },
+    {
+        "pID": "22",
+        "pName": "Quảng Ninh"
+    },
+    {
+        "pID": "24",
+        "pName": "Bắc Giang"
+    },
+    {
+        "pID": "25",
+        "pName": "Phú Thọ"
+    },
+    {
+        "pID": "26",
+        "pName": "Vĩnh Phúc"
+    },
+    {
+        "pID": "27",
+        "pName": "Bắc Ninh"
+    },
+    {
+        "pID": "30",
+        "pName": "Hải Dương"
+    },
+    {
+        "pID": "31",
+        "pName": "Hải Phòng"
+    },
+    {
+        "pID": "33",
+        "pName": "Hưng Yên"
+    },
+    {
+        "pID": "34",
+        "pName": "Thái Bình"
+    },
+    {
+        "pID": "35",
+        "pName": "Hà Nam"
+    },
+    {
+        "pID": "36",
+        "pName": "Nam Định"
+    },
+    {
+        "pID": "37",
+        "pName": "Ninh Bình"
+    },
+    {
+        "pID": "38",
+        "pName": "Thanh Hóa"
+    },
+    {
+        "pID": "40",
+        "pName": "Nghệ An"
+    },
+    {
+        "pID": "42",
+        "pName": "Hà Tĩnh"
+    },
+    {
+        "pID": "44",
+        "pName": "Quảng Bình"
+    },
+    {
+        "pID": "45",
+        "pName": "Quảng Trị"
+    },
+    {
+        "pID": "46",
+        "pName": "Thừa Thiên Huế"
+    },
+    {
+        "pID": "48",
+        "pName": "Đà Nẵng"
+    },
+    {
+        "pID": "49",
+        "pName": "Quảng Nam"
+    },
+    {
+        "pID": "51",
+        "pName": "Quảng Ngãi"
+    },
+    {
+        "pID": "52",
+        "pName": "Bình Định"
+    },
+    {
+        "pID": "54",
+        "pName": "Phú Yên"
+    },
+    {
+        "pID": "56",
+        "pName": "Khánh Hòa"
+    },
+    {
+        "pID": "58",
+        "pName": "Ninh Thuận"
+    },
+    {
+        "pID": "60",
+        "pName": "Bình Thuận"
+    },
+    {
+        "pID": "62",
+        "pName": "Kon Tum"
+    },
+    {
+        "pID": "64",
+        "pName": "Gia Lai"
+    },
+    {
+        "pID": "66",
+        "pName": "Đắk Lắk"
+    },
+    {
+        "pID": "67",
+        "pName": "Đắk Nông"
+    },
+    {
+        "pID": "68",
+        "pName": "Lâm Đồng"
+    },
+    {
+        "pID": "70",
+        "pName": "Bình Phước"
+    },
+    {
+        "pID": "72",
+        "pName": "Tây Ninh"
+    },
+    {
+        "pID": "74",
+        "pName": "Bình Dương"
+    },
+    {
+        "pID": "75",
+        "pName": "Đồng Nai"
+    },
+    {
+        "pID": "77",
+        "pName": "Bà Rịa - Vũng Tàu"
+    },
+    {
+        "pID": "79",
+        "pName": "Hồ Chí Minh"
+    },
+    {
+        "pID": "80",
+        "pName": "Long An"
+    },
+    {
+        "pID": "82",
+        "pName": "Tiền Giang"
+    },
+    {
+        "pID": "83",
+        "pName": "Bến Tre"
+    },
+    {
+        "pID": "84",
+        "pName": "Trà Vinh"
+    },
+    {
+        "pID": "86",
+        "pName": "Vĩnh Long"
+    },
+    {
+        "pID": "87",
+        "pName": "Đồng Tháp"
+    },
+    {
+        "pID": "89",
+        "pName": "An Giang"
+    },
+    {
+        "pID": "91",
+        "pName": "Kiên Giang"
+    },
+    {
+        "pID": "92",
+        "pName": "Cần Thơ"
+    },
+    {
+        "pID": "93",
+        "pName": "Hậu Giang"
+    },
+    {
+        "pID": "94",
+        "pName": "Sóc Trăng"
+    },
+    {
+        "pID": "95",
+        "pName": "Bạc Liêu"
+    },
+    {
+        "pID": "96",
+        "pName": "Cà Mau"
+    }
+]

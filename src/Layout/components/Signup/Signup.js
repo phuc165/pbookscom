@@ -4,7 +4,7 @@ import classNames from 'classnames/bind';
 import styles from './signup.module.css';
 
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
-import { collection, addDoc, getFirestore } from 'firebase/firestore';
+import { doc, setDoc, getFirestore } from 'firebase/firestore';
 
 const cx = classNames.bind(styles);
 
@@ -18,19 +18,19 @@ const Signup = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        // Clear form fields
 
         await createUserWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
+            .then(async (userCredential) => {
                 // Signed in
                 const user = userCredential.user;
-                const docRef = addDoc(collection(db, 'user'), {
+                const userDocRef = doc(db, 'user', user.uid);
+                await setDoc(userDocRef, {
                     email,
                     password,
                 });
                 setEmail('');
                 setPassword('');
-                console.log('Document written with ID: ', docRef.id);
+                console.log('Document written with ID: ', user.uid);
                 console.log(user);
                 navigate('/signinup');
             })
@@ -41,8 +41,9 @@ const Signup = () => {
                 // ..
             });
     };
+
     return (
-        <form className={cx('signupForm')}>
+        <form className={cx('signupForm')} onSubmit={onSubmit}>
             <div className={cx('input')}>
                 <label>Email:</label>
                 <input type="email" name="email" required onChange={(e) => setEmail(e.target.value)} value={email} />
@@ -62,10 +63,11 @@ const Signup = () => {
                 <input type="password" name="password" required />
             </div>
             <hr />
-            <button type="submit" className={cx('submitBtn')} onClick={onSubmit}>
+            <button type="submit" className={cx('submitBtn')}>
                 Đăng ký
             </button>
         </form>
     );
 };
+
 export default Signup;

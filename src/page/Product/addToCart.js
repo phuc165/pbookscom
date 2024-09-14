@@ -1,8 +1,15 @@
 import { getFirestore, collection, doc, setDoc, updateDoc, getDocs, query, where } from 'firebase/firestore';
 
-async function addToCart(uid, product) {
+async function addToCart(uid, product, qty) {
     if (!uid) {
         console.error('User is not logged in. Cannot add product to cart.');
+        return;
+    }
+
+    console.log('Product to add:', product); // Debugging line
+
+    if (!product.id || !product.newPrice) {
+        console.error('Product ID or price is not defined. Cannot add product to cart.');
         return;
     }
 
@@ -19,16 +26,17 @@ async function addToCart(uid, product) {
             // Product doesn't exist in the cart, add it
             await setDoc(doc(cartRef, product.id), {
                 ...product,
-                qty: 1,
-                totalProductPrice: product.newPrice,
+                qty: qty,
+                totalProductPrice: qty * product.newPrice,
+                img: product.img1,
             });
         } else {
             // Product already exists in the cart, update its quantity
             const productDoc = productDocSnapshot.docs[0];
             const productData = productDoc.data(); // Access data from the first document
             await updateDoc(productDoc.ref, {
-                qty: productData.qty + 1,
-                totalProductPrice: (productData.qty + 1) * product.newPrice,
+                qty: productData.qty + qty,
+                totalProductPrice: (productData.qty + qty) * product.newPrice,
             });
         }
 

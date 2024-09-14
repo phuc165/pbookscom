@@ -1,6 +1,6 @@
 import { TrashIcon } from '~/component/Icons';
 import classNames from 'classnames/bind';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 import getCartItems from './getCartItems';
@@ -33,6 +33,7 @@ async function deleteCartItem(uid, itemId) {
 function Cart() {
     const [cartItems, setCartItems] = useState([]);
     const [uid, setUid] = useState(null);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const auth = getAuth();
@@ -92,7 +93,16 @@ function Cart() {
     if (!uid) {
         return <div>Loading...</div>;
     }
+    function proceedToPayment() {
+        getCartItems(uid).then((cartItems) => {
+            if (cartItems.length === 0) {
+                console.error('No items in the cart to proceed to payment.');
+                return;
+            }
 
+            navigate('/payment', { state: { cartItems } });
+        });
+    }
     return (
         <>
             <h1 style={{ marginLeft: '30px' }}>Giỏ hàng</h1>
@@ -103,40 +113,46 @@ function Cart() {
                         <div className={cx('col2')}>Số lượng</div>
                         <div className={cx('col3')}>Đơn giá</div>
                     </div>
-                    <div className={cx('order')}>
-                        {cartItems.map((item) => (
-                            <div key={item.id} className={cx('rowProduct')}>
-                                <div className={cx('col1')}>
-                                    <button onClick={() => handleDelete(item)}>
-                                        <TrashIcon />
-                                    </button>
-                                    <div className={cx('imageHolder')}>
-                                        <img src={item.img} alt={item.title} />
+                    {cartItems.length === 0 ? (
+                        <div className={cx('order2')}>
+                            <img src="/images/mt.png" />
+                        </div>
+                    ) : (
+                        <div className={cx('order')}>
+                            {cartItems.map((item) => (
+                                <div key={item.id} className={cx('rowProduct')}>
+                                    <div className={cx('col1')}>
+                                        <button onClick={() => handleDelete(item)}>
+                                            <TrashIcon />
+                                        </button>
+                                        <div className={cx('imageHolder')}>
+                                            <img src={item.img} alt={item.title} />
+                                        </div>
+                                        <div className={cx('title')}>{item.title}</div>
                                     </div>
-                                    <div className={cx('title')}>{item.title}</div>
-                                </div>
-                                <div className={cx('col2')}>
-                                    <button onClick={() => handleDecrement(item)}>-</button>
-                                    <div id="qty" className={cx('qty')}>
-                                        {item.qty}
+                                    <div className={cx('col2')}>
+                                        <button onClick={() => handleDecrement(item)}>-</button>
+                                        <div id="qty" className={cx('qty')}>
+                                            {item.qty}
+                                        </div>
+                                        <button onClick={() => handleIncrement(item)}>+</button>
                                     </div>
-                                    <button onClick={() => handleIncrement(item)}>+</button>
+                                    <div className={cx('col3')}>
+                                        <div className={cx('newPrice')}>{item.totalProductPrice} VND</div>
+                                        <div className={cx('oldPrice')}>{item.oldPrice} VND</div>
+                                    </div>
                                 </div>
-                                <div className={cx('col3')}>
-                                    <div className={cx('newPrice')}>{item.totalProductPrice} VND</div>
-                                    <div className={cx('oldPrice')}>{item.oldPrice} VND</div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
+                            ))}
+                        </div>
+                    )}
                 </div>
                 <div className={cx('colSub')}>
                     <div className={cx('total')}>
                         Thành Tiền: {cartItems.reduce((total, item) => total + item.totalProductPrice, 0)} VND
                     </div>
-                    <Link to={'/payment'} className={cx('pay')}>
+                    <button onClick={proceedToPayment} className={cx('pay')}>
                         Thanh toán
-                    </Link>
+                    </button>
                 </div>
             </div>
         </>

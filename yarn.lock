@@ -3421,6 +3421,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stripe/react-stripe-js@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "@stripe/react-stripe-js@npm:2.8.0"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    "@stripe/stripe-js": ^1.44.1 || ^2.0.0 || ^3.0.0 || ^4.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/101cedd521ec90fa446fa333f5464899036bd089d6e9798961f956c66975f066cd19625ce81b1c1becd9323b2a72addd1f4f63444404ebf6a6b12e27ba2bd91b
+  languageName: node
+  linkType: hard
+
+"@stripe/stripe-js@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@stripe/stripe-js@npm:4.4.0"
+  checksum: 10c0/ac418b6141c5b60dc6a40cfb2c4be15ff80f4b6ca802650d8e81141755a0a487dc44b0225a3bffe83b2d5c3d9a9d67c55cd35f39e23d5b68e38afdc9e144f355
+  languageName: node
+  linkType: hard
+
 "@surma/rollup-plugin-off-main-thread@npm:^2.2.3":
   version: 2.2.3
   resolution: "@surma/rollup-plugin-off-main-thread@npm:2.2.3"
@@ -4109,6 +4129,13 @@ __metadata:
   version: 2.0.7
   resolution: "@types/trusted-types@npm:2.0.7"
   checksum: 10c0/4c4855f10de7c6c135e0d32ce462419d8abbbc33713b31d294596c0cc34ae1fa6112a2f9da729c8f7a20707782b0d69da3b1f8df6645b0366d08825ca1522e0c
+  languageName: node
+  linkType: hard
+
+"@types/use-sync-external-store@npm:^0.0.3":
+  version: 0.0.3
+  resolution: "@types/use-sync-external-store@npm:0.0.3"
+  checksum: 10c0/82824c1051ba40a00e3d47964cdf4546a224e95f172e15a9c62aa3f118acee1c7518b627a34f3aa87298a2039f982e8509f92bfcc18bea7c255c189c293ba547
   languageName: node
   linkType: hard
 
@@ -13009,6 +13036,8 @@ __metadata:
     "@fortawesome/free-regular-svg-icons": "npm:^6.6.0"
     "@fortawesome/free-solid-svg-icons": "npm:^6.6.0"
     "@fortawesome/react-fontawesome": "npm:^0.2.2"
+    "@stripe/react-stripe-js": "npm:^2.8.0"
+    "@stripe/stripe-js": "npm:^4.4.0"
     "@testing-library/jest-dom": "npm:^5.14.1"
     "@testing-library/react": "npm:^13.0.0"
     "@testing-library/user-event": "npm:^13.2.1"
@@ -13026,10 +13055,12 @@ __metadata:
     react-dom: "npm:^18.3.1"
     react-firebase-hooks: "npm:^5.1.1"
     react-rangeslider: "npm:^2.2.0"
+    react-redux: "npm:^9.1.2"
     react-redux-firebase: "npm:^3.11.0"
     react-router-dom: "npm:^6.26.1"
     react-scripts: "npm:5.0.1"
     sass: "npm:^1.77.8"
+    uuid: "npm:^10.0.0"
     web-vitals: "npm:^2.1.0"
   languageName: unknown
   linkType: soft
@@ -14615,6 +14646,25 @@ __metadata:
   peerDependencies:
     react: ^16.3.0 || ^17.0.0
   checksum: 10c0/8ec6a48bba991c2d6e24ed70911a3a6b8fd636f13126746bd1e81d54699f688a84ab7b709208e4c7c5c2fbbd33666c2488732f341aa7e1204d0ed4a6ee30702e
+  languageName: node
+  linkType: hard
+
+"react-redux@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "react-redux@npm:9.1.2"
+  dependencies:
+    "@types/use-sync-external-store": "npm:^0.0.3"
+    use-sync-external-store: "npm:^1.0.0"
+  peerDependencies:
+    "@types/react": ^18.2.25
+    react: ^18.0
+    redux: ^5.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    redux:
+      optional: true
+  checksum: 10c0/56ac98228e011b26e0202346af9c8dd408ad5ea8235d8761c8e05ea0953b8ca801cdf9d1f481fdec7b285d7f30ceef7238b46b3df7636ef77dd5c2ea8c5be5b2
   languageName: node
   linkType: hard
 
@@ -17142,6 +17192,15 @@ __metadata:
   version: 2.0.8
   resolution: "url-template@npm:2.0.8"
   checksum: 10c0/56a15057eacbcf05d52b0caed8279c8451b3dd9d32856a1fdd91c6dc84dcb1646f12bafc756b7ade62ca5b1564da8efd7baac5add35868bafb43eb024c62805b
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.0.0":
+  version: 1.2.2
+  resolution: "use-sync-external-store@npm:1.2.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/23b1597c10adf15b26ade9e8c318d8cc0abc9ec0ab5fc7ca7338da92e89c2536abd150a5891bf076836c352fdfa104fc7231fb48f806fd9960e0cbe03601abaf
   languageName: node
   linkType: hard
 
