@@ -4,7 +4,7 @@ import styles from './ProductCell.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-import BuyNow from '../BuyNow/BuyNow';
+import BuyNowWrapper from '../BuyNow/BuyNow';
 import { getAuth } from 'firebase/auth';
 import { getFirestore, collection, query, where, getDocs, setDoc, doc, updateDoc } from 'firebase/firestore';
 
@@ -88,9 +88,7 @@ function ProductCell({ addToCart, ...product }) {
                     <button className={cx('addCart')} onClick={handleAddToCart}>
                         Add to Cart
                     </button>
-                    <button className={cx('buyNow')} onClick={() => buyNow(product)}>
-                        Buy
-                    </button>
+                    <BuyNowWrapper product={product} uid={uid} />
                 </div>
             </div>
         </div>

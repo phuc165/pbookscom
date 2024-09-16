@@ -6,7 +6,7 @@ import addToCart from './addToCart';
 import { useParams } from 'react-router-dom';
 import { getFirestore, collection, getDocs, query, where, setDoc, doc, updateDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
-
+import BuyNowWrapper from '~/Layout/components/BuyNow/BuyNow';
 const cx = classNames.bind(styles);
 
 function Product() {
@@ -100,7 +100,7 @@ function Product() {
                         <button className={cx('addCart')} onClick={handleAddToCart}>
                             Thêm vào giỏ
                         </button>
-                        <button className={cx('buyNow')}>Mua ngay</button>
+                        <BuyNowWrapper product={product} uid={uid} />
                     </div>
                 </div>
             </div>

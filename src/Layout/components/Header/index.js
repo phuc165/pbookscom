@@ -32,6 +32,7 @@ const Header = () => {
             if (user) {
                 // User is signed in, navigate to account page
                 navigate('/account');
+                alert('Đăng nhập thành công');
             } else {
                 // No user is signed in, navigate to sign-in page
                 navigate('/signinup');
@@ -43,7 +44,7 @@ const Header = () => {
             .then(() => {
                 // Sign-out successful.
                 navigate('/');
-                console.log('Signed out successfully');
+                alert('Đăng xuất thành công');
             })
             .catch((error) => {
                 // An error happened.
