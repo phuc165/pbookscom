@@ -2,32 +2,44 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './signin.module.css';
-
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 
 const cx = classNames.bind(styles);
-
+const db = getFirestore();
 const Signin = () => {
     const auth = getAuth();
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const onLogin = (e) => {
+    const onLogin = async (e) => {
         e.preventDefault();
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
-                // Signed in
-                const user = userCredential.user;
-                navigate('/');
-                console.log(user);
-            })
-            .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                console.log(errorCode, errorMessage);
-            });
+        try {
+            const userCredential = await signInWithEmailAndPassword(auth, email, password);
+            const user = userCredential.user;
+
+            // Fetch user document from Firestore
+            const userDocRef = doc(db, 'user', user.uid);
+            const userDoc = await getDoc(userDocRef);
+
+            if (userDoc.exists()) {
+                const userData = userDoc.data();
+                if (userData.role === 'admin') {
+                    navigate('/admin');
+                } else {
+                    navigate('/');
+                }
+            } else {
+                console.log('No such document!');
+            }
+        } catch (error) {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode, errorMessage);
+        }
     };
+
     return (
         <form className={cx('loginForm')}>
             <div className={cx('input')}>

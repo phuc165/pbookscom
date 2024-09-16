@@ -1,5 +1,5 @@
 //Layouts
-import { HeaderOnly } from '~/Layout';
+import { HeaderOnly, AdminOnly } from '~/Layout';
 
 import Home from '~/page/Home';
 import Product from '~/page/Product';
@@ -17,7 +17,7 @@ const publicRoutes = [
     { path: '/payment', Component: Payment, layout: HeaderOnly },
     { path: '/cart', Component: Cart },
     { path: '/product/:productID', Component: Product },
-    { path: '/admin', Component: Admin },
+    { path: '/admin', Component: Admin, layout: AdminOnly },
 ];
 
 const privateRoutes = [];

@@ -1,0 +1,68 @@
+.container {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.add {
+    display: flex;
+    flex-direction: column;
+}
+.add>input, .add>label, .add>button, .add>textarea {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.product {
+    display: flex;
+    padding: 10px;
+    border-bottom: 0.5px solid #ced4da;
+}
+.col1 {
+    width: 10%;
+    display: flex;  
+}
+.col1>img {
+    width: 70%;
+    height: fit-content;
+}
+.col2 {
+    width: 40%;
+    text-align: left;
+}
+.col3{
+    width: 20%;
+    flex-direction: column;
+}
+.col4 {
+    width: 10%;
+}
+.col5 {
+    width: 10%;
+}
+.col6 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.col6>button {
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+}
+.col3, .col4, .col5, .col6, .col1, .col2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.pagin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagin>button {
+    margin: 0 10px;
+    padding: 10px;
+}

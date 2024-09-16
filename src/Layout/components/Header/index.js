@@ -5,6 +5,7 @@ import { CartIcon, UserIcon, LogoutIcon } from '~/component/Icons';
 import { LogoIcon } from '~/component/Images';
 import { useState, useEffect } from 'react';
 import { getAuth, signOut, onAuthStateChanged } from 'firebase/auth';
+import Search from '../Search/Search';
 
 const cx = classNames.bind(styles);
 
@@ -57,9 +58,7 @@ const Header = () => {
                         <LogoIcon />
                     </Link>
                 </div>
-                <form action="#" className={cx('searchForm')}>
-                    <input type="text" placeholder="Tìm sách" className={cx('searchBar')} />
-                </form>
+                <Search />
                 <div className={cx('iconContainer')}>
                     <Link className={cx('iconButton')} to={'/cart'}>
                         <button>

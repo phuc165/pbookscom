@@ -43,6 +43,7 @@ async function billHandle(userId, selectedAddress, cartItems, total, deliveryCos
             recipientName: selectedAddress.recipientName,
             ward: selectedAddress.wardName,
             address: selectedAddress.address,
+            state: 'Đã đặt hàng',
             timestamp: new Date().toISOString(), // Add a timestamp
         };
 

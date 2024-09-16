@@ -1,0 +1,38 @@
+.container {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.container button {
+  font-size: 20px;
+}
+.add {
+  padding: 10px;
+}
+.add input, .add select {
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.add input {
+  width: 30%;
+}
+.accountList {
+  display: flex;
+  flex-direction: column;
+}
+.account {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 0.5px solid #ced4da;
+}
+.col1 {
+  width: 60%;
+}
+.col2, .col3, .col4 {
+  width: 10%;
+}

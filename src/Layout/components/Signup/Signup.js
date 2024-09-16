@@ -27,6 +27,7 @@ const Signup = () => {
                 await setDoc(userDocRef, {
                     email,
                     password,
+                    role: 'user', // Add the role field here
                 });
                 setEmail('');
                 setPassword('');

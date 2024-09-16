@@ -37,7 +37,7 @@ const AllBills = ({ userId }) => {
                                 <p>Tên người nhận: {bill.recipientName} |</p>
                                 <p>{bill.phoneNumber} |</p>
                                 <p>
-                                    {bill.ward}, {bill.district}, {bill.province} |
+                                    {bill.address}, {bill.ward}, {bill.district}, {bill.province} |
                                 </p>
                                 <p>Thành tiền: {bill.billTotal} VND</p>
                             </div>

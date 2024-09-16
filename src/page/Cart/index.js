@@ -65,7 +65,11 @@ function Cart() {
         setCartItems((prevItems) =>
             prevItems.map((cartItem) =>
                 cartItem.id === item.id
-                    ? { ...cartItem, qty: newQty, totalProductPrice: newQty * item.newPrice }
+                    ? {
+                          ...cartItem,
+                          qty: newQty,
+                          totalProductPrice: newQty * item.newPrice,
+                      }
                     : cartItem,
             ),
         );
@@ -78,7 +82,11 @@ function Cart() {
             setCartItems((prevItems) =>
                 prevItems.map((cartItem) =>
                     cartItem.id === item.id
-                        ? { ...cartItem, qty: newQty, totalProductPrice: newQty * item.newPrice }
+                        ? {
+                              ...cartItem,
+                              qty: newQty,
+                              totalProductPrice: newQty * item.newPrice,
+                          }
                         : cartItem,
                 ),
             );
