@@ -33,7 +33,6 @@ const Signup = () => {
                 setPassword('');
                 console.log('Document written with ID: ', user.uid);
                 console.log(user);
-                navigate('/signinup');
                 alert('Đăng ký thành công');
             })
             .catch((error) => {

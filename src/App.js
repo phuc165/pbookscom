@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from '~/routes';
 import { DefaultLayout } from '~/Layout';
 import { Fragment } from 'react';
+import withAdminAuth from '~/page/Admin/withAdminAuth '; // Import the HOC
 
 import './App.css';
 
@@ -25,7 +26,7 @@ const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
-function App({ db }) {
+function App() {
     return (
         <Router>
             <div className="App">
@@ -39,13 +40,16 @@ function App({ db }) {
                         } else if (route.layout === null) {
                             Layout = Fragment;
                         }
+
+                        const Element = route.admin ? withAdminAuth(Page) : Page;
+
                         return (
                             <Route
                                 key={index}
                                 path={route.path}
                                 element={
                                     <Layout>
-                                        <Page />
+                                        <Element />
                                     </Layout>
                                 }
                             />

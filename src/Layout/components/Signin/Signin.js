@@ -25,10 +25,13 @@ const Signin = () => {
 
             if (userDoc.exists()) {
                 const userData = userDoc.data();
+
                 if (userData.role === 'admin') {
                     navigate('/admin');
+                    alert('Đăng nhập thành công');
                 } else {
                     navigate('/');
+                    alert('Đăng nhập thành công');
                 }
             } else {
                 console.log('No such document!');

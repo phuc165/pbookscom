@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { getFirestore, collection, query, where, getDocs, setDoc, updateDoc, doc } from 'firebase/firestore';
+import classNames from 'classnames/bind';
 
-const BuyNowWrapper = ({ product, uid }) => {
+const BuyNowWrapper = ({ product, uid, styles }) => {
     const navigate = useNavigate();
-
+    const cx = classNames.bind(styles);
     const BuyNow = async () => {
         if (uid === null) {
             console.error('User is not logged in. Cannot add product to cart.');
@@ -46,7 +47,11 @@ const BuyNowWrapper = ({ product, uid }) => {
         }
     };
 
-    return <button onClick={BuyNow}>Mua ngay</button>;
+    return (
+        <button onClick={BuyNow} className={cx('buyNow')}>
+            Mua ngay
+        </button>
+    );
 };
 
 export default BuyNowWrapper;

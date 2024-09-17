@@ -209,7 +209,7 @@ function ProductFilter() {
                         key={product.productID}
                         id={product.productID}
                         title={product.title}
-                        img={product.img1}
+                        img1={product.img1}
                         newPrice={product.newPrice}
                         oldPrice={product.oldPrice}
                     />
@@ -217,11 +217,11 @@ function ProductFilter() {
             </div>
 
             <div className={cx('pagin')}>
-                <button onClick={handlePreviousPage}>Previous</button>
+                <button onClick={handlePreviousPage}>Trước</button>
                 <span>
                     {currentPage} / {totalPages}
                 </span>
-                <button onClick={handleNextPage}>Next</button>
+                <button onClick={handleNextPage}>Tiếp theo</button>
             </div>
         </>
     );

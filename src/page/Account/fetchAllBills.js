@@ -11,7 +11,6 @@ async function fetchAllBills(userId) {
             const productsCollectionRef = collection(db, `bill/${userId}/bills/${billDoc.id}/products`);
             const productsSnapshot = await getDocs(productsCollectionRef);
             const products = productsSnapshot.docs.map((doc) => doc.data());
-
             return {
                 id: billDoc.id,
                 ...billData,

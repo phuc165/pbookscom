@@ -32,7 +32,6 @@ const Header = () => {
             if (user) {
                 // User is signed in, navigate to account page
                 navigate('/account');
-                alert('Đăng nhập thành công');
             } else {
                 // No user is signed in, navigate to sign-in page
                 navigate('/signinup');
@@ -50,7 +49,6 @@ const Header = () => {
                 // An error happened.
             });
     };
-
     return (
         <header className={cx('wrapper')}>
             <div className={cx('inner')}>

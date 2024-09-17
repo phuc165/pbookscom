@@ -100,7 +100,7 @@ function Product() {
                         <button className={cx('addCart')} onClick={handleAddToCart}>
                             Thêm vào giỏ
                         </button>
-                        <BuyNowWrapper product={product} uid={uid} />
+                        <BuyNowWrapper product={product} uid={uid} styles={styles} />
                     </div>
                 </div>
             </div>

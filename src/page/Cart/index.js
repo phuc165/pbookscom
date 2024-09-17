@@ -99,12 +99,12 @@ function Cart() {
     };
 
     if (!uid) {
-        return <div>Loading...</div>;
+        return <div>Vui lòng đăng nhập để sử dụng giỏ hàng</div>;
     }
     function proceedToPayment() {
         getCartItems(uid).then((cartItems) => {
             if (cartItems.length === 0) {
-                console.error('No items in the cart to proceed to payment.');
+                alert('Không có gì để thanh toán');
                 return;
             }
 
@@ -134,7 +134,7 @@ function Cart() {
                                             <TrashIcon />
                                         </button>
                                         <div className={cx('imageHolder')}>
-                                            <img src={item.img} alt={item.title} />
+                                            <img src={item.img1} alt={item.title} />
                                         </div>
                                         <div className={cx('title')}>{item.title}</div>
                                     </div>

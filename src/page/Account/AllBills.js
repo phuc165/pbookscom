@@ -39,7 +39,8 @@ const AllBills = ({ userId }) => {
                                 <p>
                                     {bill.address}, {bill.ward}, {bill.district}, {bill.province} |
                                 </p>
-                                <p>Thành tiền: {bill.billTotal} VND</p>
+                                <p>Thành tiền: {bill.billTotal} | VND</p>
+                                <p>Trạng thái đơn hàng: {bill.state}</p>
                             </div>
                             {firstProduct && (
                                 <div className={cx('product')}>

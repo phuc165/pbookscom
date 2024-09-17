@@ -73,7 +73,7 @@ function ProductCell({ addToCart, ...product }) {
     return (
         <div className={cx('productContainer')}>
             <Link className={cx('imgHolder')} to={`/product/${product.id}`}>
-                <img src={product.img} alt="" />
+                <img src={product.img1} alt="" />
             </Link>
             <div className={cx('productBottom')}>
                 <div className={cx('title')}>
@@ -86,9 +86,9 @@ function ProductCell({ addToCart, ...product }) {
                 </div>
                 <div className={cx('buy')}>
                     <button className={cx('addCart')} onClick={handleAddToCart}>
-                        Add to Cart
+                        Thêm vào giỏ
                     </button>
-                    <BuyNowWrapper product={product} uid={uid} />
+                    <BuyNowWrapper product={product} uid={uid} styles={styles} />
                 </div>
             </div>
         </div>

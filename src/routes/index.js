@@ -17,7 +17,12 @@ const publicRoutes = [
     { path: '/payment', Component: Payment, layout: HeaderOnly },
     { path: '/cart', Component: Cart },
     { path: '/product/:productID', Component: Product },
-    { path: '/admin', Component: Admin, layout: AdminOnly },
+    {
+        path: '/admin',
+        Component: Admin,
+        layout: AdminOnly,
+        admin: true, // Add this property
+    },
 ];
 
 const privateRoutes = [];
