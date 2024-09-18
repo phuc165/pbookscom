@@ -123,7 +123,7 @@ const Payment = () => {
                         {cartItems.map((item, index) => (
                             <div key={index} className={cx('product')}>
                                 <div className={cx('col1')}>
-                                    <img src={item.img} alt="{item.title}" />
+                                    <img src={item.img1} alt="{item.title}" />
                                 </div>
                                 <div className={cx('col2')}>{item.title}</div>
                                 <div className={cx('col3')}>{item.newPrice}</div>

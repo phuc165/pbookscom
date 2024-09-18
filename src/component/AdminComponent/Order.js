@@ -80,7 +80,7 @@ const Order = () => {
                     {bills.map((bill) => {
                         const firstProduct = bill.products && bill.products.length > 0 ? bill.products[0] : null;
                         return (
-                            <div className={cx('inner2')}>
+                            <div className={cx('inner2')} key={bill.id}>
                                 <div className={cx('state')}>
                                     <select
                                         value={bill.state}

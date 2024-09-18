@@ -54,7 +54,7 @@ async function billHandle(userId, selectedAddress, cartItems, total, deliveryCos
         for (const item of cartItems) {
             const productRef = doc(db, `bill/${userId}/bills/${billId}/products/${item.id}`);
             const productData = {
-                img: item.img,
+                img: item.img1,
                 newPrice: item.newPrice,
                 oldPrice: item.oldPrice,
                 qty: item.qty,
