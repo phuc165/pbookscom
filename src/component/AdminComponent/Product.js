@@ -65,7 +65,17 @@ const Product = () => {
     }, []);
 
     const handleAddProduct = async () => {
-        await addDoc(collection(db, 'product'), newProduct);
+        const docRef = await addDoc(collection(db, 'product'), newProduct);
+        const docId = docRef.id;
+
+        // Update the product with the document ID
+        await updateDoc(docRef, { productID: docId });
+
+        // Fetch the updated list of products from the database
+        const querySnapshot = await getDocs(collection(db, 'product'));
+        const updatedProducts = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+        setProducts(updatedProducts); // Update the state with the new list of products
+
         setNewProduct({
             age: '',
             anHien: '',
@@ -106,6 +116,7 @@ const Product = () => {
     const handleSearch = () => {
         const results = products.filter((product) => product.title.toLowerCase().includes(searchQuery.toLowerCase()));
         setSearchResults(results);
+        console.log(results);
     };
     const handleNextPage = () => {
         setCurrentPage((prevPage) => prevPage + 1);
