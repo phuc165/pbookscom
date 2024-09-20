@@ -81,7 +81,7 @@ function ProductFilter() {
         const productsCollection = collection(db, 'product');
 
         // Build query based on filters
-        let productQuery = query(productsCollection);
+        let productQuery = query(productsCollection, where('anHien', '==', '1'), where('productQty', '>', 0)); // Only show products where anHien is 1 and productQty is greater than 0
         if (selectedCategory) {
             productQuery = query(productQuery, where('theLoai', '==', selectedCategory));
         }

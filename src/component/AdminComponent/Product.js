@@ -13,6 +13,7 @@ import {
     query,
     startAfter,
     limit,
+    where,
 } from 'firebase/firestore';
 import { Link } from 'react-router-dom';
 const db = getFirestore();
@@ -43,29 +44,47 @@ const Product = () => {
     const [lastVisible, setLastVisible] = useState(null);
     const [loading, setLoading] = useState(false);
     const productsPerPage = 10; // Number of products per page
-
-    const fetchProducts = async (page = 1) => {
+    const [allProducts, setAllProducts] = useState([]);
+    const fetchAllProducts = async () => {
         setLoading(true);
-        let queryRef = collection(db, 'product');
-        if (page > 1 && lastVisible) {
-            queryRef = query(queryRef, startAfter(lastVisible), limit(productsPerPage));
-        } else {
-            queryRef = query(queryRef, limit(productsPerPage));
-        }
+        const db = getFirestore();
+        const productsCollection = collection(db, 'product');
 
-        const querySnapshot = await getDocs(queryRef);
-        const productsList = querySnapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
-        setProducts(productsList); // Reset products state to only include the current page's products
-        setLastVisible(querySnapshot.docs[querySnapshot.docs.length - 1]);
+        // Fetch all products that match the criteria
+        let productQuery = query(productsCollection);
+        const querySnapshot = await getDocs(productQuery);
+        const allProductsList = querySnapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id }));
+
+        setAllProducts(allProductsList);
         setLoading(false);
     };
+    const fetchProducts = (page = 1) => {
+        setLoading(true);
+        const startIndex = (page - 1) * productsPerPage;
+        const paginatedProducts = allProducts.slice(startIndex, startIndex + productsPerPage);
 
+        setProducts(paginatedProducts);
+        setLoading(false);
+    };
+    const handleSearch = () => {
+        const results = allProducts.filter((product) =>
+            product.title.toLowerCase().includes(searchQuery.toLowerCase()),
+        );
+        setSearchResults(results);
+        console.log(results);
+    };
     useEffect(() => {
-        fetchProducts();
+        fetchAllProducts();
     }, []);
 
     const handleAddProduct = async () => {
-        const docRef = await addDoc(collection(db, 'product'), newProduct);
+        // Ensure productQty is a number
+        const newProductWithQtyAsNumber = {
+            ...newProduct,
+            productQty: Number(newProduct.productQty),
+        };
+
+        const docRef = await addDoc(collection(db, 'product'), newProductWithQtyAsNumber);
         const docId = docRef.id;
 
         // Update the product with the document ID
@@ -104,7 +123,7 @@ const Product = () => {
         const updatedProduct = {};
         for (const key in newProduct) {
             if (newProduct[key]) {
-                updatedProduct[key] = newProduct[key];
+                updatedProduct[key] = key === 'productQty' ? Number(newProduct[key]) : newProduct[key];
             }
         }
 
@@ -113,11 +132,7 @@ const Product = () => {
             setProducts(products.map((product) => (product.id === id ? { ...product, ...updatedProduct } : product)));
         }
     };
-    const handleSearch = () => {
-        const results = products.filter((product) => product.title.toLowerCase().includes(searchQuery.toLowerCase()));
-        setSearchResults(results);
-        console.log(results);
-    };
+
     const handleNextPage = () => {
         setCurrentPage((prevPage) => prevPage + 1);
         fetchProducts(currentPage + 1);
@@ -234,12 +249,23 @@ const Product = () => {
                     <button onClick={handleSearch}>Tìm</button>
                     <div>
                         {searchResults.map((product) => (
-                            <div key={product.id}>
-                                <h3>{product.title}</h3>
-                                <p>{product.description}</p>
-                                {/* Add other fields as needed */}
-                                <button onClick={() => handleDeleteProduct(product.id)}>Delete</button>
-                                <button onClick={() => handleUpdateProduct(product.id)}>Update</button>
+                            <div key={product.id} className={cx('product')}>
+                                <div className={cx('col1')}>
+                                    <img src={product.img1} alt="" />
+                                </div>
+                                <div className={cx('col2')}>{product.title}</div>
+                                <div className={cx('col3')}>
+                                    <span>Giá mới: {product.newPrice}</span>
+                                    <span>Giá gốc:{product.oldPrice}</span>
+                                </div>
+                                <div className={cx('col4')}>{product.productQty}</div>
+                                <Link to={`/product/${product.id}`} className={cx('col5')}>
+                                    Xem sản phẩm
+                                </Link>
+                                <div className={cx('col6')}>
+                                    <button onClick={() => handleDeleteProduct(product.id)}>Xoá</button>
+                                    <button onClick={() => handleUpdateProduct(product.id)}>Sửa</button>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -254,7 +280,7 @@ const Product = () => {
                         <div className={cx('col5')}>Xem</div>
                         <div className={cx('col6')}>Xoá/Sửa</div>
                     </div>
-                    {products.map((product) => (
+                    {allProducts.map((product) => (
                         <div key={product.id} className={cx('product')}>
                             <div className={cx('col1')}>
                                 <img src={product.img1} alt="" />
