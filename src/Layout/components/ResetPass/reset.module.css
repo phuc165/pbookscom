@@ -1,0 +1,16 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+}
+.input {
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.button {
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -5,3 +5,14 @@
     width: 90%;
     margin: auto;
 }
+.linkContainer {
+    margin-bottom: 20px;
+}
+.link {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: large;
+    background-color: #93deff;
+    padding: 10px;
+    border-radius: 10px;
+}

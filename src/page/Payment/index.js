@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import classNames from 'classnames/bind';
 import styles from './payment.module.css';
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import AddAddress from '~/Layout/components/AddressBook/AddressBook';
 import Modal from './modal'; // Replace with your actual modal component import
 import ShowAddressRadio from './ShowAddressRadio';
 import billHandle from './billHandle';
@@ -74,7 +74,9 @@ const Payment = () => {
         <div className={cx('container')}>
             <h1>Thanh toán</h1>
             <div className={cx('deliveryInfo')}>
+                <AddAddress />
                 <h2>Địa chỉ giao hàng:</h2>
+
                 <button onClick={handleOpenModal}>Chọn địa chỉ giao hàng</button>
                 <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
                     <ShowAddressRadio onSelectAddress={handleSelectAddress} />
@@ -155,8 +157,12 @@ const Payment = () => {
                 </div>
             </div>
             {successMessage && (
-                <div className={cx('successMessage')}>
-                    <p>{successMessage}</p>
+                <div className={cx('modal-overlay')}>
+                    <div className={cx('modal-box')}>
+                        <div className={cx('successMessage')}>
+                            <p>{successMessage}</p>
+                        </div>
+                    </div>
                 </div>
             )}
         </div>

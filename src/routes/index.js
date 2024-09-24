@@ -9,6 +9,7 @@ import Payment from '~/page/Payment';
 import Cart from '~/page/Cart';
 import Admin from '~/page/Admin';
 import { Component } from 'react';
+import ResetPassword from '~/Layout/components/ResetPass/ResetPass';
 
 const publicRoutes = [
     { path: '/', Component: Home },
@@ -23,6 +24,7 @@ const publicRoutes = [
         layout: AdminOnly,
         admin: true, // Add this property
     },
+    { path: '/reset-password', Component: ResetPassword },
 ];
 
 const privateRoutes = [];

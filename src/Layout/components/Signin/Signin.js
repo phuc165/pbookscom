@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './signin.module.css';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
@@ -59,6 +59,7 @@ const Signin = () => {
                     onClick={onLogin}
                 />
             </div>
+            <Link to={'/reset-password'}>Quên mật khẩu?</Link>
             <hr />
             <button type="submit" className={cx('submitBtn')} onClick={onLogin}>
                 Đăng nhập
